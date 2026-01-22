@@ -1,0 +1,47 @@
+[
+  {
+    "field_label": "Registered name",
+    "canonical_field_id": "registered_name",
+    "page_number": 1,
+    "field_type": "text",
+    "placement": { "x": 180, "y": 120, "font_size": 10 },
+    "required": true,
+    "validation_rule": "non-empty"
+  },
+  {
+    "field_label": "NRIC / Passport No",
+    "canonical_field_id": "nric_passport",
+    "page_number": 1,
+    "field_type": "text",
+    "placement": { "x": 180, "y": 150, "font_size": 10 },
+    "required": true,
+    "validation_rule": "alphanumeric"
+  },
+  {
+    "field_label": "Account type",
+    "canonical_field_id": "account_type",
+    "page_number": 2,
+    "field_type": "selection",
+    "placement": { "x": 100, "y": 200, "font_size": 10 },
+    "required": true,
+    "validation_rule": "selection_list"
+  },
+  {
+    "field_label": "Signature Name",
+    "canonical_field_id": "signature_name",
+    "page_number": 2,
+    "field_type": "text",
+    "placement": { "x": 100, "y": 500, "font_size": 12 },
+    "required": true,
+    "validation_rule": "non-empty"
+  },
+  {
+    "field_label": "Date",
+    "canonical_field_id": "sign_date",
+    "page_number": 2,
+    "field_type": "date",
+    "placement": { "x": 400, "y": 500, "font_size": 10 },
+    "required": true,
+    "validation_rule": "date_format"
+  }
+]

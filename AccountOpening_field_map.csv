@@ -1,0 +1,10 @@
+template_name,page,field_label,canonical_field_id,field_type,required,confidence_strategy,placement_details,post_validation
+AccountOpening_v1.pdf,1,Registered name,registered_name,text,yes,OCR label match,"x=180,y=120,font_size=10",non-empty
+AccountOpening_v1.pdf,1,NRIC / Passport No,id_number,text,yes,OCR label match,"x=180,y=150,font_size=10",alphanumeric
+AccountOpening_v1.pdf,2,Account type,account_type,selection,yes,AcroForm checkbox,"form_field_name=chk_account_type",selection_list
+AccountOpening_v1.pdf,2,Signature Name,signatory_name_1,text,yes,coordinate,"x=100,y=500,font_size=12",non-empty
+AccountOpening_v1.pdf,2,Date,date_signed,date,yes,coordinate,"x=400,y=500,font_size=10",date_format
+TradePMR.com_NAHS_Non-IndividualAccountHoldersSupplement_May2020-1 (1).pdf,1,Account Title,registered_name,text,yes,coordinate,"x=100,y=600,font_size=10",non-empty
+TradePMR.com_NAHS_Non-IndividualAccountHoldersSupplement_May2020-1 (1).pdf,1,Account Number,account_number,text,yes,coordinate,"x=400,y=600,font_size=10",alphanumeric
+TradePMR.com_NAHS_Non-IndividualAccountHoldersSupplement_May2020-1 (1).pdf,1,Date,date_signed,date,yes,coordinate,"x=100,y=550,font_size=10",date_format
+TradePMR.com_NAHS_Non-IndividualAccountHoldersSupplement_May2020-1 (1).pdf,1,Signature,signatory_name_1,text,yes,coordinate,"x=100,y=500,font_size=12",non-empty

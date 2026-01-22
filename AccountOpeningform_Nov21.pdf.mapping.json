@@ -1,0 +1,7510 @@
+{
+  "template_id": "Account Opening form_Nov 21.pdf",
+  "last_updated": "2025-12-11T22:56:55.989873",
+  "mappings": [
+    {
+      "id": "Accttype7",
+      "label": "Multi Currencey Account",
+      "name": "currency",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: Multi Currencey Account",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.2564,
+        680.458,
+        8.5199,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.07938569671883294,
+        0.181629429022794,
+        0.01431252057868955,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Accttype7",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "currency",
+        "suggested_new_field_name": "multi_currencey_account",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "currency",
+          "purpose_of_account",
+          "account_number"
+        ],
+        "score": 0.6207189559936523
+      }
+    },
+    {
+      "id": "Accttype1",
+      "label": "SGD Current Account",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: SGD Current Account",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        173.886,
+        681.277,
+        8.52000000000001,
+        8.400999999999954
+      ],
+      "rect_pct": [
+        0.2921098784429408,
+        0.18079796648018148,
+        0.014312688567992008,
+        0.009978738314981712
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Accttype1",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "sgd_current_account",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "collateral_value",
+          "referral_code"
+        ],
+        "score": 0.6390138864517212
+      }
+    },
+    {
+      "id": "Accttype3",
+      "label": "Foreign Currency Current Account",
+      "name": "currency",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: Foreign Currency Current Account",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        294.065,
+        681.088,
+        8.519999999999982,
+        8.521000000000072
+      ],
+      "rect_pct": [
+        0.49399774222377524,
+        0.18087992493081037,
+        0.014312688567991961,
+        0.010121274750858274
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Accttype3",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "currency",
+        "suggested_new_field_name": "foreign_currency_current_account",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "currency",
+          "customer_nationality",
+          "collateral_value"
+        ],
+        "score": 0.4252891540527344
+      }
+    },
+    {
+      "id": "undefined_2",
+      "label": "undefined",
+      "name": "undefined_2",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        442.768,
+        681.035,
+        92.76000000000005,
+        10.321000000000026
+      ],
+      "rect_pct": [
+        0.7438028746329434,
+        0.17880483198517622,
+        0.15582687694447628,
+        0.012259321289004534
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line1",
+          "introducer_name",
+          "residential_address_line2"
+        ],
+        "score": 0.7977296113967896
+      }
+    },
+    {
+      "id": "Accttype2",
+      "label": "SGD Current Account",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: SGD Current Account",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.8271,
+        668.386,
+        8.519999999999996,
+        8.521000000000072
+      ],
+      "rect_pct": [
+        0.080344411667865,
+        0.19596740666832954,
+        0.014312688567991986,
+        0.010121274750858274
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Accttype2",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "sgd_current_account",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "collateral_value",
+          "referral_code"
+        ],
+        "score": 0.6390138864517212
+      }
+    },
+    {
+      "id": "Text2-1",
+      "label": "Text2-1",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.4211,
+        575.523,
+        196.0979,
+        27.05200000000002
+      ],
+      "rect_pct": [
+        0.07630258905112923,
+        0.28425922626471384,
+        0.3294234943118823,
+        0.03213246386107451
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-1",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-1",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.644395112991333
+      }
+    },
+    {
+      "id": "Email",
+      "label": "Email",
+      "name": "email_address",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        326.066,
+        588.417,
+        218.40300000000008,
+        15.274999999999977
+      ],
+      "rect_pct": [
+        0.5477559988979902,
+        0.28293244960743086,
+        0.36689367621069907,
+        0.01814370048343605
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Email",
+      "mapping_status": "auto",
+      "mapping_proposal": {
+        "canonical_field_id": "email_address",
+        "suggested_new_field_name": "email",
+        "confidence": "High",
+        "source": "auto_embedding",
+        "candidates": [
+          "email_address"
+        ],
+        "score": 0.05
+      }
+    },
+    {
+      "id": "Text2-8",
+      "label": "Text2-8",
+      "name": "Text2-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        279.499,
+        578.546,
+        8.399000000000001,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.46952842043018705,
+        0.30268087279810896,
+        0.014109421512038115,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text2-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6507229208946228
+      }
+    },
+    {
+      "id": "Text2-2",
+      "label": "Text2-2",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        53.1476,
+        540.438,
+        21.72,
+        18.720000000000027
+      ],
+      "rect_pct": [
+        0.08928228250425013,
+        0.33583009656843527,
+        0.0364872764902331,
+        0.022235683996721694
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-2",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-2",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6442974805831909
+      }
+    },
+    {
+      "id": "Text2-3",
+      "label": "undefined",
+      "name": "Text2-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        83.1453,
+        540.388,
+        86.2797,
+        18.718999999999937
+      ],
+      "rect_pct": [
+        0.13967520948266016,
+        0.3358906745536828,
+        0.14494066617837778,
+        0.022234496193089284
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "total_assets",
+          "introducer_name",
+          "residential_address_line1"
+        ],
+        "score": 0.796226441860199
+      }
+    },
+    {
+      "id": "Text2-4",
+      "label": "Text2-4",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        187.425,
+        540.388,
+        21.72,
+        19.084999999999923
+      ],
+      "rect_pct": [
+        0.31485395010045764,
+        0.33545593842425975,
+        0.0364872764902331,
+        0.02266923232251235
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-4",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-4",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6456718444824219
+      }
+    },
+    {
+      "id": "Text2-5",
+      "label": "Text2-5",
+      "name": "Text2-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        217.065,
+        540.388,
+        86.39999999999998,
+        19.084999999999923
+      ],
+      "rect_pct": [
+        0.3646459793440354,
+        0.33545593842425975,
+        0.14514275730921453,
+        0.02266923232251235
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text2-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6541411876678467
+      }
+    },
+    {
+      "id": "Text2-6",
+      "label": "Text2-6",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        325.806,
+        533.656,
+        218.40400000000005,
+        38.56200000000001
+      ],
+      "rect_pct": [
+        0.547319226711643,
+        0.3203173811305515,
+        0.3668953561037234,
+        0.04580408366888787
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-6",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-6",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6448886394500732
+      }
+    },
+    {
+      "id": "Text2-7",
+      "label": "Text2-7",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        371.317,
+        519.963,
+        173.48900000000003,
+        12.437999999999988
+      ],
+      "rect_pct": [
+        0.623772838145667,
+        0.3676121583579803,
+        0.2914429609122492,
+        0.014773901578591014
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-7",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-7",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6493126749992371
+      }
+    },
+    {
+      "id": "Text2-6-2",
+      "label": "Text2-6-2",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        44.353,
+        468.984,
+        502.47499999999997,
+        38.124000000000024
+      ],
+      "rect_pct": [
+        0.07450829531175455,
+        0.3976552756298329,
+        0.8441042474415229,
+        0.045283825677938955
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-6-2",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-6-2",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6491390466690063
+      }
+    },
+    {
+      "id": "Text2-7-2",
+      "label": "Text2-7-2",
+      "name": "Text2-7-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        95.9209,
+        455.876,
+        450.93709999999993,
+        12.439999999999998
+      ],
+      "rect_pct": [
+        0.16113685080534074,
+        0.4437325541341506,
+        0.7575260887386691,
+        0.014776277185855632
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-7-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text2-7-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6527785062789917
+      }
+    },
+    {
+      "id": "Text2-9",
+      "label": "Text2-9",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.2807,
+        432.273,
+        8.399799999999999,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.07942651811932618,
+        0.47642447350603995,
+        0.014110765426457643,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-9",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-9",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6395639777183533
+      }
+    },
+    {
+      "id": "Text2-10",
+      "label": "Text2-10",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.7778,
+        337.326,
+        8.399999999999999,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.08026159294176147,
+        0.5892028649823611,
+        0.014111101405062524,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-10",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-10",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6496986150741577
+      }
+    },
+    {
+      "id": "Text2-13",
+      "label": "Text2-13",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        253.783,
+        336.75,
+        114.36500000000004,
+        14.730000000000018
+      ],
+      "rect_pct": [
+        0.42632829141440276,
+        0.5825107793179631,
+        0.19212096573690196,
+        0.017496347503830688
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-13",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-13",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6455816030502319
+      }
+    },
+    {
+      "id": "Text2-12",
+      "label": "Text2-12",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        209.119,
+        353.081,
+        159.172,
+        63.339
+      ],
+      "rect_pct": [
+        0.35129754937205604,
+        0.5053748114361734,
+        0.2673919324817396,
+        0.07523429426647187
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-12",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-12",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6446558237075806
+      }
+    },
+    {
+      "id": "Text2-14",
+      "label": "Text2-14",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        375.958,
+        368.441,
+        78.76999999999998,
+        47.51000000000005
+      ],
+      "rect_pct": [
+        0.631569221671964,
+        0.5059318913397237,
+        0.1323251735329494,
+        0.056432550570739703
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-14",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-14",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6473961472511292
+      }
+    },
+    {
+      "id": "Text2-D1",
+      "label": "Text2-D1",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        464.41,
+        392.213,
+        77.62799999999999,
+        17.668999999999983
+      ],
+      "rect_pct": [
+        0.7801591194672725,
+        0.5131406715841736,
+        0.13040673569907066,
+        0.020987302379170656
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-D1",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-d1",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6360272765159607
+      }
+    },
+    {
+      "id": "Text2-20",
+      "label": "Text2-20",
+      "name": "Text2-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        376.249,
+        337.768,
+        160.606,
+        16.714000000000055
+      ],
+      "rect_pct": [
+        0.632058070542068,
+        0.578944992813788,
+        0.26980089907874666,
+        0.019852949910320893
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text2-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6516032218933105
+      }
+    },
+    {
+      "id": "Text2-11",
+      "label": "Text2-11",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.89,
+        325.057,
+        149.58300000000003,
+        9.896999999999991
+      ],
+      "rect_pct": [
+        0.08045007693910053,
+        0.6021404221454109,
+        0.25128343827065097,
+        0.011755692548907805
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-11",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-11",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6497906446456909
+      }
+    },
+    {
+      "id": "Text2-22",
+      "label": "Text2-22",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        361.004,
+        323.481,
+        8.399999999999977,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.6064481013849039,
+        0.6056480062716032,
+        0.014111101405062488,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-22",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text2-22",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.645177960395813
+      }
+    },
+    {
+      "id": "Text2-21",
+      "label": "Text2-21",
+      "name": "Text2-21",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        399.437,
+        323.295,
+        137.81899999999996,
+        12.793999999999983
+      ],
+      "rect_pct": [
+        0.6710114299921381,
+        0.6007922650227464,
+        0.2315211767314657,
+        0.015196759671691056
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text2-21",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text2-21",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6509238481521606
+      }
+    },
+    {
+      "id": "Text3A-1",
+      "label": "Text3A-1",
+      "name": "Text3A-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        70.0694,
+        245.022,
+        224.8246,
+        44.17700000000002
+      ],
+      "rect_pct": [
+        0.1177090962847486,
+        0.6564883773414579,
+        0.3776812772562644,
+        0.05247360106427208
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6987905502319336
+      }
+    },
+    {
+      "id": "Text3A-2",
+      "label": "Text3A-2",
+      "name": "Text3A-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.3458,
+        216.895,
+        104.3262,
+        14.448999999999984
+      ],
+      "rect_pct": [
+        0.07617609310639098,
+        0.7252087564883775,
+        0.17525685564343263,
+        0.017162574683153364
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7066824436187744
+      }
+    },
+    {
+      "id": "Text3A-4",
+      "label": "Text3A-4",
+      "name": "Text3A-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        161.402,
+        215.152,
+        21.11100000000002,
+        15.952000000000027
+      ],
+      "rect_pct": [
+        0.27113809392617877,
+        0.7254938293601302,
+        0.0354642216383661,
+        0.018947843542505585
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7062041163444519
+      }
+    },
+    {
+      "id": "Text3A-5",
+      "label": "Text3A-5",
+      "name": "Text3A-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        190.567,
+        214.336,
+        75.62200000000001,
+        16.44199999999998
+      ],
+      "rect_pct": [
+        0.3201321739831608,
+        0.7258810533442611,
+        0.12703687029209984,
+        0.019529867322334245
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7087154984474182
+      }
+    },
+    {
+      "id": "Text3A-18",
+      "label": "Text3A-18",
+      "name": "Text3A-18",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        299.144,
+        216.673,
+        8.519999999999982,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.5025299188947648,
+        0.7325149366306762,
+        0.014312688567991961,
+        0.010120086947225897
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-18",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-18",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7008721828460693
+      }
+    },
+    {
+      "id": "Text3A-19",
+      "label": "Text3A-19",
+      "name": "Text3A-19",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        421.691,
+        216.911,
+        8.520000000000039,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.7083957693574073,
+        0.732232239366188,
+        0.014312688567992057,
+        0.010120086947225897
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-19",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-19",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6865571737289429
+      }
+    },
+    {
+      "id": "Text3A-3",
+      "label": "Text3A-3",
+      "name": "Text3A-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        44.3664,
+        190.711,
+        105.3056,
+        14.447999999999979
+      ],
+      "rect_pct": [
+        0.07453080587828168,
+        0.7563113946002447,
+        0.17690214287154196,
+        0.017161386879521054
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7087203860282898
+      }
+    },
+    {
+      "id": "Text3A-180",
+      "label": "Text3A-180",
+      "name": "Text3A-180",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        298.907,
+        205.309,
+        8.520000000000039,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.5021317842479791,
+        0.7460131371081732,
+        0.014312688567992057,
+        0.010120086947225897
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-180",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-180",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "collateral_value"
+        ],
+        "score": 0.6892436742782593
+      }
+    },
+    {
+      "id": "Text3A-20",
+      "label": "Text3A-20",
+      "name": "Text3A-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        421.729,
+        205.55,
+        8.400000000000034,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.708459605292335,
+        0.7457268764327881,
+        0.014111101405062583,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7054954171180725
+      }
+    },
+    {
+      "id": "Text3A-6",
+      "label": "Text3A-6",
+      "name": "Text3A-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        161.31,
+        194.729,
+        21.11099999999999,
+        16.68599999999998
+      ],
+      "rect_pct": [
+        0.2709835437679329,
+        0.748880495076554,
+        0.03546422163836605,
+        0.0198196914086163
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7002144455909729
+      }
+    },
+    {
+      "id": "Text3A-7",
+      "label": "Text3A-7",
+      "name": "Text3A-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        190.567,
+        194.637,
+        75.62200000000001,
+        17.27199999999999
+      ],
+      "rect_pct": [
+        0.3201321739831608,
+        0.748293720082196,
+        0.12703687029209984,
+        0.020515744337146175
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7039408683776855
+      }
+    },
+    {
+      "id": "Text3A-8",
+      "label": "Text3A-8",
+      "name": "Text3A-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        98.7433,
+        173.769,
+        8.399699999999996,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.16587818087744174,
+        0.783476463671026,
+        0.014110597437155196,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7070151567459106
+      }
+    },
+    {
+      "id": "Text3-D1",
+      "label": "Text3-D1",
+      "name": "Text3-D1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        170.423,
+        169.556,
+        82.648,
+        18.40299999999999
+      ],
+      "rect_pct": [
+        0.28629240889940133,
+        0.7767416170758651,
+        0.13883979868161997,
+        0.021859150245281442
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3-D1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3-d1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.6935338973999023
+      }
+    },
+    {
+      "id": "module required 1 cash management",
+      "label": "Module Required 1 Cash Management",
+      "name": "debit_card_required",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        299.067,
+        178.954,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5024005671318851,
+        0.7773177018375321,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 1 cash management",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "debit_card_required",
+        "suggested_new_field_name": "module_required_1_cash_management",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "debit_card_required",
+          "bank_verification_code",
+          "currency"
+        ],
+        "score": 0.5620407462120056
+      }
+    },
+    {
+      "id": "module required 1 trade finance",
+      "label": "Module Required 1 Trade Finance",
+      "name": "collateral_value",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        394.83,
+        178.954,
+        8.520000000000039,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.6632721628286711,
+        0.7773177018375321,
+        0.014312688567992057,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 1 trade finance",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "collateral_value",
+        "suggested_new_field_name": "module_required_1_trade_finance",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "currency",
+          "business_reg_number"
+        ],
+        "score": 0.6306600570678711
+      }
+    },
+    {
+      "id": "module required 1 loan",
+      "label": "Module Required 1 Loan",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        473.958,
+        178.954,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7961987380643601,
+        0.7773177018375321,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 1 loan",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "module_required_1_loan",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "existing_loans_count",
+          "loan_purpose"
+        ],
+        "score": 0.5120543241500854
+      }
+    },
+    {
+      "id": "Text3A-15",
+      "label": "Text3A-15",
+      "name": "Text3A-15",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        70.2027,
+        137.712,
+        223.5303,
+        28.134000000000015
+      ],
+      "rect_pct": [
+        0.11793302602490273,
+        0.8030075187969925,
+        0.37550699171476765,
+        0.0334176673912269
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-15",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-15",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6993259191513062
+      }
+    },
+    {
+      "id": "Text3A-26",
+      "label": "Text3A-26",
+      "name": "Text3A-26",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        299.77,
+        149.036,
+        8.520000000000039,
+        8.400000000000006
+      ],
+      "rect_pct": [
+        0.5035815319280468,
+        0.812996947344665,
+        0.014312688567992057,
+        0.009977550511349471
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-26",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-26",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.699741005897522
+      }
+    },
+    {
+      "id": "Text3A-16",
+      "label": "Text3A-16",
+      "name": "Text3A-16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        46.6462,
+        122.789,
+        8.5199,
+        8.519999999999996
+      ],
+      "rect_pct": [
+        0.07836062599533662,
+        0.8440306928458587,
+        0.01431252057868955,
+        0.01012008694722588
+      ],
+      "page": 1,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3A-16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3a-16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6942955255508423
+      }
+    },
+    {
+      "id": "Text3B-1",
+      "label": "Text3B-1",
+      "name": "Text3B-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        71.0137,
+        669.027,
+        224.7623,
+        35.89199999999994
+      ],
+      "rect_pct": [
+        0.11929541926770104,
+        0.16269465132024374,
+        0.3775766199208435,
+        0.04263264797063742
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6895802021026611
+      }
+    },
+    {
+      "id": "Text3B-2",
+      "label": "Text3B-2",
+      "name": "Text3B-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        47.4699,
+        641.777,
+        105.5521,
+        14.447999999999979
+      ],
+      "rect_pct": [
+        0.07974435387954495,
+        0.2205335613916307,
+        0.17731623650205955,
+        0.017161386879521054
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7001059055328369
+      }
+    },
+    {
+      "id": "Text3B-18",
+      "label": "Text3B-18",
+      "name": "Text3B-18",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.997,
+        657.734,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5056427606690007,
+        0.20862107876325883,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-18",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-18",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6971378326416016
+      }
+    },
+    {
+      "id": "Text3B-19",
+      "label": "Text3B-19",
+      "name": "Text3B-19",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.387,
+        657.734,
+        8.521000000000015,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7112448679268105,
+        0.20862107876325883,
+        0.014314368461016429,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-19",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-19",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6861400604248047
+      }
+    },
+    {
+      "id": "Text3B-4",
+      "label": "Text3B-4",
+      "name": "Text3B-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.663,
+        639.608,
+        23.069999999999993,
+        15.46300000000008
+      ],
+      "rect_pct": [
+        0.2732564390299626,
+        0.22190428678330895,
+        0.03875513207318957,
+        0.018367007566309233
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.701854944229126
+      }
+    },
+    {
+      "id": "Text3B-5",
+      "label": "Text3B-5",
+      "name": "Text3B-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        191.303,
+        639.547,
+        77.582,
+        15.952999999999975
+      ],
+      "rect_pct": [
+        0.32136857524912815,
+        0.22139471902505076,
+        0.1303294606199477,
+        0.018949031346137825
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7055196762084961
+      }
+    },
+    {
+      "id": "Text3B-180",
+      "label": "Text3B-180",
+      "name": "Text3B-180",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.235,
+        645.899,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5060425752088108,
+        0.22267873475157088,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-180",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-180",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "collateral_value"
+        ],
+        "score": 0.6867341995239258
+      }
+    },
+    {
+      "id": "Text3B-20",
+      "label": "Text3B-20",
+      "name": "Text3B-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.414,
+        646.642,
+        8.400000000000034,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7112902250384696,
+        0.2217961966527693,
+        0.014111101405062583,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.701551079750061
+      }
+    },
+    {
+      "id": "Text3B-3",
+      "label": "Text3B-3",
+      "name": "Text3B-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        46.26,
+        615.098,
+        106.77700000000002,
+        14.204000000000065
+      ],
+      "rect_pct": [
+        0.07771185130930863,
+        0.25251279858413805,
+        0.1793739374676621,
+        0.0168715627932391
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7041904330253601
+      }
+    },
+    {
+      "id": "Text3B-6",
+      "label": "Text3B-6",
+      "name": "Text3B-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.306,
+        618.695,
+        22.33499999999998,
+        15.952999999999975
+      ],
+      "rect_pct": [
+        0.2726567172202475,
+        0.24616280036584348,
+        0.03752041070024658,
+        0.018949031346137825
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6976648569107056
+      }
+    },
+    {
+      "id": "Text3B-7",
+      "label": "Text3B-7",
+      "name": "Text3B-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        191.793,
+        619.316,
+        76.60199999999998,
+        16.048000000000002
+      ],
+      "rect_pct": [
+        0.32219172283109015,
+        0.24531233296511415,
+        0.12868316545602373,
+        0.019061872691206693
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.703134298324585
+      }
+    },
+    {
+      "id": "module required 2 cash management",
+      "label": "Module Required 2 Cash Management",
+      "name": "debit_card_required",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.847,
+        616.183,
+        8.520000000000039,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5053907767153387,
+        0.2579755074891019,
+        0.014312688567992057,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 2 cash management",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "debit_card_required",
+        "suggested_new_field_name": "module_required_2_cash_management",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "debit_card_required",
+          "bank_verification_code",
+          "loan_amount_requested"
+        ],
+        "score": 0.5523699522018433
+      }
+    },
+    {
+      "id": "module required 2 trade finance",
+      "label": "Module Required 2 Trade Finance",
+      "name": "collateral_value",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        396.61,
+        616.183,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.6662623724121248,
+        0.2579755074891019,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 2 trade finance",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "collateral_value",
+        "suggested_new_field_name": "module_required_2_trade_finance",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "other_income_source",
+          "currency"
+        ],
+        "score": 0.6311439871788025
+      }
+    },
+    {
+      "id": "module required 2 loan",
+      "label": "Module Required 2 Loan",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        475.739,
+        616.183,
+        8.520000000000039,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7991906275408382,
+        0.2579755074891019,
+        0.014312688567992057,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 2 loan",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "module_required_2_loan",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "existing_loans_count",
+          "loan_purpose"
+        ],
+        "score": 0.5195803046226501
+      }
+    },
+    {
+      "id": "Text3B-8",
+      "label": "Text3B-8",
+      "name": "Text3B-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        100.249,
+        598.528,
+        8.400000000000006,
+        8.520999999999958
+      ],
+      "rect_pct": [
+        0.16840759580429918,
+        0.27894499281378804,
+        0.014111101405062536,
+        0.010121274750858139
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7018498182296753
+      }
+    },
+    {
+      "id": "Text3-D2",
+      "label": "Text3-D2",
+      "name": "Text3-D2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        175.642,
+        593.404,
+        82.64800000000002,
+        17.668000000000006
+      ],
+      "rect_pct": [
+        0.2950597705938086,
+        0.274166458801031,
+        0.13883979868162,
+        0.02098611457553838
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3-D2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3-d2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.6885697841644287
+      }
+    },
+    {
+      "id": "Text3B-15",
+      "label": "Text3B-15",
+      "name": "Text3B-15",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        71.4475,
+        568.845,
+        224.6325,
+        20.997999999999934
+      ],
+      "rect_pct": [
+        0.12002415686169106,
+        0.29938234211120224,
+        0.37735856980627475,
+        0.024941500671108972
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-15",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-15",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.696902871131897
+      }
+    },
+    {
+      "id": "Text3B-16",
+      "label": "Text3B-16",
+      "name": "Text3B-16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        48.2891,
+        553.555,
+        8.5199,
+        8.520000000000095
+      ],
+      "rect_pct": [
+        0.08112052224514343,
+        0.3323652733730059,
+        0.01431252057868955,
+        0.010120086947225998
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6905786991119385
+      }
+    },
+    {
+      "id": "Text3B-26",
+      "label": "Text3B-26",
+      "name": "Text3B-26",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.38,
+        584.374,
+        8.519999999999982,
+        8.399999999999977
+      ],
+      "rect_pct": [
+        0.5062861596973505,
+        0.29590088966492056,
+        0.014312688567991961,
+        0.009977550511349437
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3B-26",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3b-26",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.697822093963623
+      }
+    },
+    {
+      "id": "Text3C-1",
+      "label": "Text3C-1",
+      "name": "Text3C-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        70.4801,
+        511.943,
+        224.39390000000003,
+        32.26700000000005
+      ],
+      "rect_pct": [
+        0.11839902834987467,
+        0.3535853852641081,
+        0.3769577473306501,
+        0.038326859803537346
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7051076292991638
+      }
+    },
+    {
+      "id": "Text3C-2",
+      "label": "Text3C-2",
+      "name": "Text3C-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.0995,
+        482.109,
+        106.04149999999998,
+        14.938000000000045
+      ],
+      "rect_pct": [
+        0.07576233545447826,
+        0.40960576797443843,
+        0.17813837614820688,
+        0.01774341065934985
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7159546613693237
+      }
+    },
+    {
+      "id": "Text3C-18",
+      "label": "Text3C-18",
+      "name": "Text3C-18",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.184,
+        498.154,
+        8.519999999999982,
+        8.519000000000005
+      ],
+      "rect_pct": [
+        0.5059569006645658,
+        0.3981719702098849,
+        0.014312688567991961,
+        0.010118899143593587
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-18",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-18",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7068595290184021
+      }
+    },
+    {
+      "id": "Text3C-19",
+      "label": "Text3C-19",
+      "name": "Text3C-19",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.725,
+        498.126,
+        8.519999999999982,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.7118126717690618,
+        0.3982040409079571,
+        0.014312688567991961,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-19",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-19",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6948498487472534
+      }
+    },
+    {
+      "id": "Text3C-4",
+      "label": "Text3C-4",
+      "name": "Text3C-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.83,
+        480.676,
+        21.599999999999994,
+        14.97399999999999
+      ],
+      "rect_pct": [
+        0.27353698116503944,
+        0.4112651296487665,
+        0.03628568932730363,
+        0.017786171590112712
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7172446846961975
+      }
+    },
+    {
+      "id": "Text3C-5",
+      "label": "Text3C-5",
+      "name": "Text3C-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        192.653,
+        480.86,
+        76.357,
+        14.728000000000009
+      ],
+      "rect_pct": [
+        0.3236364308320846,
+        0.41133877347396924,
+        0.1282715916650428,
+        0.017493971896566072
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7210252285003662
+      }
+    },
+    {
+      "id": "Text3C-180",
+      "label": "Text3C-180",
+      "name": "Text3C-180",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.184,
+        487.026,
+        8.519999999999982,
+        8.519000000000005
+      ],
+      "rect_pct": [
+        0.5059569006645658,
+        0.4113898490301583,
+        0.014312688567991961,
+        0.010118899143593587
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-180",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-180",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "collateral_value"
+        ],
+        "score": 0.6962491273880005
+      }
+    },
+    {
+      "id": "Text3C-20",
+      "label": "Text3C-20",
+      "name": "Text3C-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.735,
+        487.051,
+        8.399999999999977,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.7118294706993059,
+        0.41135896613571843,
+        0.014111101405062488,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7127265930175781
+      }
+    },
+    {
+      "id": "Text3C-3",
+      "label": "Text3C-3",
+      "name": "Text3C-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.0995,
+        455.17,
+        106.04149999999998,
+        15.673000000000002
+      ],
+      "rect_pct": [
+        0.07576233545447826,
+        0.44073097435531955,
+        0.17813837614820688,
+        0.018616446329092876
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.720040500164032
+      }
+    },
+    {
+      "id": "Text3C-6",
+      "label": "Text3C-6",
+      "name": "Text3C-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.493,
+        460.009,
+        21.599999999999994,
+        15.950999999999965
+      ],
+      "rect_pct": [
+        0.2729708572158125,
+        0.43465298316882256,
+        0.03628568932730363,
+        0.01894665573887321
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7119590044021606
+      }
+    },
+    {
+      "id": "Text3C-7",
+      "label": "Text3C-7",
+      "name": "Text3C-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        191.919,
+        460.285,
+        81.744,
+        14.822999999999979
+      ],
+      "rect_pct": [
+        0.3224033893521661,
+        0.4356649918635451,
+        0.13732117538755134,
+        0.017606813241634867
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7173953056335449
+      }
+    },
+    {
+      "id": "module required 3 cash management",
+      "label": "Module Required 3 Cash Management",
+      "name": "debit_card_required",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.914,
+        456.694,
+        8.520000000000039,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5055033295479744,
+        0.447417121001556,
+        0.014312688567992057,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 3 cash management",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "debit_card_required",
+        "suggested_new_field_name": "module_required_3_cash_management",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "debit_card_required",
+          "bank_verification_code",
+          "currency"
+        ],
+        "score": 0.5617232918739319
+      }
+    },
+    {
+      "id": "module required 3 trade finance",
+      "label": "Module Required 3 Trade Finance",
+      "name": "collateral_value",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        396.676,
+        456.694,
+        8.520000000000039,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.666373245351736,
+        0.447417121001556,
+        0.014312688567992057,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 3 trade finance",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "collateral_value",
+        "suggested_new_field_name": "module_required_3_trade_finance",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "currency",
+          "bank_verification_code"
+        ],
+        "score": 0.632048487663269
+      }
+    },
+    {
+      "id": "module required 3 loan",
+      "label": "Module Required 3 Loan",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        475.805,
+        456.694,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7993015004804495,
+        0.447417121001556,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 3 loan",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "module_required_3_loan",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "existing_loans_count",
+          "loan_purpose"
+        ],
+        "score": 0.5249775648117065
+      }
+    },
+    {
+      "id": "Text3C-8",
+      "label": "Text3C-8",
+      "name": "Text3C-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        100.26,
+        439.286,
+        8.399999999999991,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.16842607462756773,
+        0.46809440663269547,
+        0.014111101405062512,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7149874567985535
+      }
+    },
+    {
+      "id": "Text3-D3",
+      "label": "Text3-D3",
+      "name": "Text3-D3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        175.978,
+        433.498,
+        82.649,
+        18.40300000000002
+      ],
+      "rect_pct": [
+        0.29562421465001115,
+        0.4632303507584126,
+        0.13884147857464438,
+        0.021859150245281473
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3-D3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3-d3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.7554826736450195
+      }
+    },
+    {
+      "id": "Text3C-15",
+      "label": "Text3C-15",
+      "name": "Text3C-15",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        70.9569,
+        410.054,
+        225.0011,
+        19.840000000000032
+      ],
+      "rect_pct": [
+        0.11920000134391444,
+        0.4893703452945159,
+        0.3779777783750731,
+        0.023566024064901627
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-15",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-15",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7091840505599976
+      }
+    },
+    {
+      "id": "Text3C-16",
+      "label": "Text3C-16",
+      "name": "Text3C-16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        48.3065,
+        394.271,
+        8.5199,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.0811497523837682,
+        0.5215633871408378,
+        0.01431252057868955,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7012163400650024
+      }
+    },
+    {
+      "id": "Text3C-26",
+      "label": "Text3C-26",
+      "name": "Text3C-26",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.61,
+        424.499,
+        8.520999999999958,
+        8.399999999999977
+      ],
+      "rect_pct": [
+        0.5066725350929654,
+        0.4858009953794439,
+        0.014314368461016334,
+        0.009977550511349437
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3C-26",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3c-26",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.709851861000061
+      }
+    },
+    {
+      "id": "Text3D-1",
+      "label": "Text3D-1",
+      "name": "Text3D-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        71.5225,
+        349.174,
+        225.00350000000003,
+        36.894000000000005
+      ],
+      "rect_pct": [
+        0.12015014883852196,
+        0.5414270272838494,
+        0.37798181011833176,
+        0.04382282721020562
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6966219544410706
+      }
+    },
+    {
+      "id": "Text3D-2",
+      "label": "Text3D-2",
+      "name": "Text3D-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        46.2546,
+        322.64,
+        104.94039999999998,
+        14.694000000000017
+      ],
+      "rect_pct": [
+        0.07770277988697681,
+        0.5993134495005286,
+        0.1762886459390266,
+        0.01745358657306776
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.705859899520874
+      }
+    },
+    {
+      "id": "Text3D-18",
+      "label": "Text3D-18",
+      "name": "Text3D-18",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.964,
+        338.79,
+        8.519999999999982,
+        8.520999999999958
+      ],
+      "rect_pct": [
+        0.505587324199195,
+        0.5874627326610365,
+        0.014312688567991961,
+        0.010121274750858139
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-18",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-18",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.7057619094848633
+      }
+    },
+    {
+      "id": "Text3D-19",
+      "label": "Text3D-19",
+      "name": "Text3D-19",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.471,
+        339.019,
+        8.519000000000005,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.7113859789408611,
+        0.5871919134328712,
+        0.014311008674967589,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-19",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-19",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6939182877540588
+      }
+    },
+    {
+      "id": "Text3D-4",
+      "label": "Text3D-4",
+      "name": "Text3D-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.725,
+        321.064,
+        21.599999999999994,
+        15.096000000000004
+      ],
+      "rect_pct": [
+        0.2733605923974761,
+        0.6007079309648529,
+        0.03628568932730363,
+        0.017931083633253755
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.7103691697120667
+      }
+    },
+    {
+      "id": "Text3D-5",
+      "label": "Text3D-5",
+      "name": "Text3D-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        192.787,
+        320.896,
+        76.112,
+        15.645999999999958
+      ],
+      "rect_pct": [
+        0.3238615364973559,
+        0.600254189977313,
+        0.1278600178740618,
+        0.018584375631020632
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "currency"
+        ],
+        "score": 0.7131350040435791
+      }
+    },
+    {
+      "id": "Text3D-180",
+      "label": "Text3D-180",
+      "name": "Text3D-180",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.202,
+        327.507,
+        8.519999999999982,
+        8.521000000000015
+      ],
+      "rect_pct": [
+        0.5059871387390051,
+        0.6008647210443169,
+        0.014312688567991961,
+        0.010121274750858207
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-180",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-180",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "currency"
+        ],
+        "score": 0.6913856267929077
+      }
+    },
+    {
+      "id": "Text3D-20",
+      "label": "Text3D-20",
+      "name": "Text3D-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.532,
+        327.938,
+        8.400000000000034,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.7114884524153502,
+        0.6003539654824264,
+        0.014111101405062583,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.7072256207466125
+      }
+    },
+    {
+      "id": "Text3D-3",
+      "label": "Text3D-3",
+      "name": "Text3D-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        46.8379,
+        297.684,
+        105.30710000000002,
+        14.202999999999975
+      ],
+      "rect_pct": [
+        0.07868266148811644,
+        0.6295394885317559,
+        0.1769046627110786,
+        0.01687037498960669
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.7135169506072998
+      }
+    },
+    {
+      "id": "Text3D-6",
+      "label": "Text3D-6",
+      "name": "Text3D-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.924,
+        300.83,
+        21.783999999999992,
+        14.728000000000009
+      ],
+      "rect_pct": [
+        0.2736948911093342,
+        0.6251790613975697,
+        0.03659478964379547,
+        0.017493971896566072
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.706847608089447
+      }
+    },
+    {
+      "id": "Text3D-7",
+      "label": "Text3D-7",
+      "name": "Text3D-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        192.657,
+        300.623,
+        80.703,
+        15.435000000000002
+      ],
+      "rect_pct": [
+        0.3236431504041823,
+        0.624585159581418,
+        0.13557240674913823,
+        0.01833374906460464
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "currency"
+        ],
+        "score": 0.7121531963348389
+      }
+    },
+    {
+      "id": "module required 4 cash management",
+      "label": "Module Required 4 Cash Management",
+      "name": "debit_card_required",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.755,
+        297.407,
+        8.519999999999982,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.5052362265570929,
+        0.6366187981802848,
+        0.014312688567991961,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 4 cash management",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "debit_card_required",
+        "suggested_new_field_name": "module_required_4_cash_management",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "debit_card_required",
+          "bank_verification_code",
+          "currency"
+        ],
+        "score": 0.5548735857009888
+      }
+    },
+    {
+      "id": "module required 4 trade finance",
+      "label": "Module Required 4 Trade Finance",
+      "name": "collateral_value",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        396.518,
+        297.407,
+        8.520000000000039,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.6661078222538789,
+        0.6366187981802848,
+        0.014312688567992057,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 4 trade finance",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "collateral_value",
+        "suggested_new_field_name": "module_required_4_trade_finance",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "business_reg_number",
+          "currency"
+        ],
+        "score": 0.6380378007888794
+      }
+    },
+    {
+      "id": "module required 4 loan",
+      "label": "Module Required 4 Loan",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        475.647,
+        297.407,
+        8.519999999999982,
+        8.520000000000039
+      ],
+      "rect_pct": [
+        0.7990360773825923,
+        0.6366187981802848,
+        0.014312688567991961,
+        0.01012008694722593
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 4 loan",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "module_required_4_loan",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "existing_loans_count",
+          "loan_purpose"
+        ],
+        "score": 0.5240290760993958
+      }
+    },
+    {
+      "id": "Text3D-8",
+      "label": "Text3D-8",
+      "name": "Text3D-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        100.276,
+        279.653,
+        8.400000000000006,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.16845295291595833,
+        0.6577070638682013,
+        0.014111101405062536,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.7135971188545227
+      }
+    },
+    {
+      "id": "Text3-D4",
+      "label": "Text3-D4",
+      "name": "Text3-D4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        175.669,
+        274.154,
+        82.648,
+        18.403999999999996
+      ],
+      "rect_pct": [
+        0.29510512770546776,
+        0.6524985449405505,
+        0.13883979868161997,
+        0.021860338048913748
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3-D4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3-d4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.7013230323791504
+      }
+    },
+    {
+      "id": "Text3D-15",
+      "label": "Text3D-15",
+      "name": "Text3D-15",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        71.3424,
+        250.222,
+        225.00060000000002,
+        20.443000000000012
+      ],
+      "rect_pct": [
+        0.11984760010482533,
+        0.678503129862571,
+        0.37797693842856095,
+        0.02428226965518062
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-15",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-15",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.7068976163864136
+      }
+    },
+    {
+      "id": "Text3D-16",
+      "label": "Text3D-16",
+      "name": "Text3D-16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        48.3249,
+        234.602,
+        8.5199,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.0811806624154174,
+        0.7112188053071067,
+        0.01431252057868955,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6976732015609741
+      }
+    },
+    {
+      "id": "Text3D-26",
+      "label": "Text3D-26",
+      "name": "Text3D-26",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.137,
+        265.128,
+        8.519999999999982,
+        8.400000000000034
+      ],
+      "rect_pct": [
+        0.5058779456924184,
+        0.6751024480632861,
+        0.014312688567991961,
+        0.009977550511349504
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3D-26",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3d-26",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "currency"
+        ],
+        "score": 0.7109723091125488
+      }
+    },
+    {
+      "id": "Text3E-1",
+      "label": "Text3E-1",
+      "name": "Text3E-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        71.1815,
+        189.07,
+        224.2295,
+        38.58100000000002
+      ],
+      "rect_pct": [
+        0.11957730531719742,
+        0.7295953153024742,
+        0.37668157291743665,
+        0.04582665193790165
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7077107429504395
+      }
+    },
+    {
+      "id": "Text3E-2",
+      "label": "Text3E-2",
+      "name": "Text3E-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.4714,
+        163.134,
+        103.8376,
+        14.204000000000008
+      ],
+      "rect_pct": [
+        0.07638708767025716,
+        0.7893572794545606,
+        0.17443605991170483,
+        0.01687156279323903
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7183997631072998
+      }
+    },
+    {
+      "id": "Text3E-18",
+      "label": "Text3E-18",
+      "name": "Text3E-18",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.973,
+        178.713,
+        8.519999999999982,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.5056024432364148,
+        0.7776039625129173,
+        0.014312688567991961,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-18",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-18",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7119627594947815
+      }
+    },
+    {
+      "id": "Text3E-19",
+      "label": "Text3E-19",
+      "name": "Text3E-19",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.437,
+        178.712,
+        8.519999999999982,
+        8.521000000000015
+      ],
+      "rect_pct": [
+        0.7113288625780311,
+        0.7776039625129173,
+        0.014312688567991961,
+        0.010121274750858207
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-19",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-19",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6995116472244263
+      }
+    },
+    {
+      "id": "Text3E-4",
+      "label": "Text3E-4",
+      "name": "Text3E-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.582,
+        161.104,
+        21.599999999999994,
+        14.72799999999998
+      ],
+      "rect_pct": [
+        0.2731203676949852,
+        0.7911461117248096,
+        0.03628568932730363,
+        0.017493971896566037
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7193622589111328
+      }
+    },
+    {
+      "id": "Text3E-5",
+      "label": "Text3E-5",
+      "name": "Text3E-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        192.643,
+        161.05,
+        76.47999999999999,
+        14.728999999999985
+      ],
+      "rect_pct": [
+        0.3236196319018405,
+        0.7912090653173217,
+        0.12847821850704547,
+        0.017495159700198347
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7219986915588379
+      }
+    },
+    {
+      "id": "Text3E-180",
+      "label": "Text3E-180",
+      "name": "Text3E-180",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        300.973,
+        167.585,
+        8.519999999999982,
+        8.519999999999982
+      ],
+      "rect_pct": [
+        0.5056024432364148,
+        0.7908218413331908,
+        0.014312688567991961,
+        0.010120086947225862
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-180",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-180",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "collateral_value"
+        ],
+        "score": 0.6982643604278564
+      }
+    },
+    {
+      "id": "Text3E-20",
+      "label": "Text3E-20",
+      "name": "Text3E-20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        423.543,
+        167.612,
+        8.40100000000001,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.7115069312386187,
+        0.7907897706351187,
+        0.014112781298086956,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7168205976486206
+      }
+    },
+    {
+      "id": "Text3E-3",
+      "label": "Text3E-3",
+      "name": "Text3E-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        45.5937,
+        136.318,
+        104.20530000000001,
+        15.549999999999983
+      ],
+      "rect_pct": [
+        0.07659253858714278,
+        0.8196106379693309,
+        0.1750537565767812,
+        0.018470346482319523
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7219622731208801
+      }
+    },
+    {
+      "id": "Text3E-6",
+      "label": "Text3E-6",
+      "name": "Text3E-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.966,
+        140.681,
+        21.599999999999994,
+        14.72799999999998
+      ],
+      "rect_pct": [
+        0.2737654466163595,
+        0.8154046253073441,
+        0.03628568932730363,
+        0.017493971896566037
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7140371799468994
+      }
+    },
+    {
+      "id": "Text3E-7",
+      "label": "Text3E-7",
+      "name": "Text3E-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        192.644,
+        140.475,
+        76.47899999999998,
+        14.700999999999993
+      ],
+      "rect_pct": [
+        0.3236213117948649,
+        0.8156813835536708,
+        0.12847653861402106,
+        0.01746190119849386
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.717645525932312
+      }
+    },
+    {
+      "id": "module required 5 cash management",
+      "label": "Module Required 5 Cash Management",
+      "name": "debit_card_required",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        301.309,
+        137.053,
+        8.519999999999982,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.5061668872926173,
+        0.8270878618346815,
+        0.014312688567991961,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 5 cash management",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "debit_card_required",
+        "suggested_new_field_name": "module_required_5_cash_management",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "debit_card_required",
+          "bank_verification_code",
+          "currency"
+        ],
+        "score": 0.5539659857749939
+      }
+    },
+    {
+      "id": "module required 5 trade finance",
+      "label": "Module Required 5 Trade Finance",
+      "name": "collateral_value",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        396.477,
+        137.053,
+        8.520000000000039,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.666038946639878,
+        0.8270878618346815,
+        0.014312688567992057,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 5 trade finance",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "collateral_value",
+        "suggested_new_field_name": "module_required_5_trade_finance",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "currency",
+          "bank_verification_code"
+        ],
+        "score": 0.6346092224121094
+      }
+    },
+    {
+      "id": "module required 5 loan",
+      "label": "Module Required 5 Loan",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        475.606,
+        137.053,
+        8.519999999999982,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.7989672017685915,
+        0.8270878618346815,
+        0.014312688567991961,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "module required 5 loan",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "module_required_5_loan",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "existing_loans_count",
+          "loan_purpose"
+        ],
+        "score": 0.521062433719635
+      }
+    },
+    {
+      "id": "Text3E-8",
+      "label": "Text3E-8",
+      "name": "Text3E-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        99.9839,
+        119.589,
+        8.400099999999995,
+        8.52000000000001
+      ],
+      "rect_pct": [
+        0.16796225616352753,
+        0.8478316644692299,
+        0.01411126939436496,
+        0.010120086947225897
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7177755832672119
+      }
+    },
+    {
+      "id": "Text3-D5",
+      "label": "Text3-D5",
+      "name": "Text3-D5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        175.744,
+        114.146,
+        82.648,
+        17.668999999999997
+      ],
+      "rect_pct": [
+        0.29523111968229865,
+        0.8434296642079132,
+        0.13883979868161997,
+        0.020987302379170673
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3-D5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3-d5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7103304862976074
+      }
+    },
+    {
+      "id": "Text3E-15",
+      "label": "Text3E-15",
+      "name": "Text3E-15",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        70.9611,
+        90.665,
+        224.2049,
+        20.342
+      ],
+      "rect_pct": [
+        0.11920705689461697,
+        0.8681454821888845,
+        0.37664024754903613,
+        0.02416230148831795
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-15",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-15",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7115446329116821
+      }
+    },
+    {
+      "id": "Text3E-16",
+      "label": "Text3E-16",
+      "name": "Text3E-16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        48.311,
+        74.3321,
+        8.5199,
+        8.519900000000007
+      ],
+      "rect_pct": [
+        0.08115731190237806,
+        0.9015880934563898,
+        0.01431252057868955,
+        0.010119968166862663
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7046555876731873
+      }
+    },
+    {
+      "id": "Text3E-26",
+      "label": "Text3E-26",
+      "name": "Text3E-26",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        302.136,
+        105.054,
+        8.520999999999958,
+        8.397999999999996
+      ],
+      "rect_pct": [
+        0.5075561588238062,
+        0.8652413023079024,
+        0.014314368461016334,
+        0.009975174904084852
+      ],
+      "page": 2,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text3E-26",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text3e-26",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.7108330726623535
+      }
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "name": "b",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "b",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "b",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6610319018363953
+      }
+    },
+    {
+      "id": "b.Ordinary mail",
+      "label": "B.Ordinary Mail",
+      "name": "mailing_address_line1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "b.Ordinary mail",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mailing_address_line1",
+        "suggested_new_field_name": "b.ordinary_mail",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mailing_address_line1",
+          "mailing_address_line2",
+          "permanent_address_line2"
+        ],
+        "score": 0.5526220798492432
+      }
+    },
+    {
+      "id": "b.registered mail",
+      "label": "B.Registered Mail",
+      "name": "mailing_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "b.registered mail",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mailing_address_line2",
+        "suggested_new_field_name": "b.registered_mail",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mailing_address_line2",
+          "mailing_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.5597347021102905
+      }
+    },
+    {
+      "id": "Text4-3",
+      "label": "Text4-3",
+      "name": "Text4-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        416.115,
+        646.73,
+        26.810000000000002,
+        11.066000000000031
+      ],
+      "rect_pct": [
+        0.6990286858532849,
+        0.21866752188528185,
+        0.045037931984491235,
+        0.013144234995070652
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.6739182472229004
+      }
+    },
+    {
+      "id": "Text4-1",
+      "label": "Text4-1",
+      "name": "Text4-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        116.439,
+        625.566,
+        199.354,
+        20.53699999999992
+      ],
+      "rect_pct": [
+        0.1956050638695328,
+        0.2325565097578069,
+        0.33489339398867085,
+        0.02439392319661704
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.6625256538391113
+      }
+    },
+    {
+      "id": "Text4-4",
+      "label": "Text4-4",
+      "name": "Text4-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        357.682,
+        636.594,
+        40.71799999999996,
+        8.530999999999949
+      ],
+      "rect_pct": [
+        0.6008674967578065,
+        0.23371818171019965,
+        0.06840188416801612,
+        0.010133152787181163
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.6722937822341919
+      }
+    },
+    {
+      "id": "signing",
+      "label": "Signing",
+      "name": "signature_date",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        173.978,
+        563.123,
+        8.533999999999992,
+        8.520999999999958
+      ],
+      "rect_pct": [
+        0.29226442860118673,
+        0.3209991804154937,
+        0.01433620707033375,
+        0.010121274750858139
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "signing",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "signature_date",
+        "suggested_new_field_name": "signing",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "signature_date",
+          "authorized_signatory_1",
+          "authorized_signatory_2"
+        ],
+        "score": 0.544561505317688
+      }
+    },
+    {
+      "id": "Currency",
+      "label": "Currency",
+      "name": "currency",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        323.937,
+        550.199,
+        8.519000000000005,
+        8.519000000000005
+      ],
+      "rect_pct": [
+        0.5441795066490166,
+        0.3363527301666489,
+        0.014311008674967589,
+        0.010118899143593587
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Currency",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "currency",
+        "suggested_new_field_name": "currency",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "currency",
+          "collateral_value",
+          "source_of_funds"
+        ],
+        "score": 0.43325555324554443
+      }
+    },
+    {
+      "id": "Text4-7",
+      "label": "Text4-7",
+      "name": "Text4-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        234.46,
+        537.591,
+        48.31899999999999,
+        11.746999999999957
+      ],
+      "rect_pct": [
+        0.39386771850368574,
+        0.3474943282376558,
+        0.08117075104657334,
+        0.013953129268669253
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.6709797382354736
+      }
+    },
+    {
+      "id": "Dropdown 1",
+      "label": "Dropdown 1",
+      "name": "Dropdown 1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        398.889,
+        549.114,
+        64.382,
+        9.885999999999967
+      ],
+      "rect_pct": [
+        0.6700908486147603,
+        0.33601776954233925,
+        0.10815487269770663,
+        0.011742626708952437
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Dropdown 1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "dropdown_1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "place_of_birth",
+          "employer_address"
+        ],
+        "score": 0.7340660691261292
+      }
+    },
+    {
+      "id": "Text4-8",
+      "label": "Text4-8",
+      "name": "Text4-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        212.588,
+        521.173,
+        75.90400000000002,
+        14.639999999999986
+      ],
+      "rect_pct": [
+        0.35712509827374195,
+        0.3635593723645607,
+        0.12751060012498408,
+        0.017389445176923334
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "residential_address_line1"
+        ],
+        "score": 0.6735182404518127
+      }
+    },
+    {
+      "id": "undefined8",
+      "label": "Undefined8",
+      "name": "undefined8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "purpose_of_account",
+          "permanent_address_line2"
+        ],
+        "score": 0.7573120594024658
+      }
+    },
+    {
+      "id": "undefined8.0",
+      "label": "0",
+      "name": "undefined8.0",
+      "type": "text",
+      "section": "Undefined8",
+      "context": "Page 1. Section: Undefined8.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined8.0",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "0",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7624597549438477
+      }
+    },
+    {
+      "id": "undefined_10",
+      "label": "undefined",
+      "name": "undefined_10",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 3. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        307.999,
+        466.619,
+        8.520999999999958,
+        8.504999999999995
+      ],
+      "rect_pct": [
+        0.5174053716259349,
+        0.4356459870054282,
+        0.014314368461016334,
+        0.010102269892741328
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_10",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.8058507442474365
+      }
+    },
+    {
+      "id": "undefined_14",
+      "label": "undefined",
+      "name": "undefined_14",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 3. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        341.031,
+        466.793,
+        8.533000000000015,
+        8.521000000000015
+      ],
+      "rect_pct": [
+        0.5728955980083189,
+        0.43542030431529055,
+        0.014334527177309375,
+        0.010121274750858207
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_14",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.8058507442474365
+      }
+    },
+    {
+      "id": "undefined_11",
+      "label": "undefined",
+      "name": "undefined_11",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 3. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        379.191,
+        466.976,
+        8.520000000000039,
+        8.518000000000029
+      ],
+      "rect_pct": [
+        0.6370003158198886,
+        0.4352064996614759,
+        0.014312688567992057,
+        0.010117711339961312
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_11",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.8058507442474365
+      }
+    },
+    {
+      "id": "undefined_9",
+      "label": "undefined",
+      "name": "undefined_9",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 3. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        415.793,
+        466.961,
+        8.519999999999982,
+        8.521000000000015
+      ],
+      "rect_pct": [
+        0.6984877602994242,
+        0.43522075330506355,
+        0.014312688567991961,
+        0.010121274750858207
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_9",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.8058507442474365
+      }
+    },
+    {
+      "id": "undefined_12",
+      "label": "undefined",
+      "name": "undefined_12",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 3. Section: Undefined. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        451.656,
+        466.609,
+        8.512,
+        8.513000000000034
+      ],
+      "rect_pct": [
+        0.7587337638339191,
+        0.43564836261269285,
+        0.014299249423796694,
+        0.0101117723217998
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "undefined_12",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.8058507442474365
+      }
+    },
+    {
+      "id": "undefined_8",
+      "label": "8",
+      "name": "undefined_8",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.7675923109054565
+      }
+    },
+    {
+      "id": "undefined_8.1",
+      "label": "8 1",
+      "name": "undefined_8.1",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.7577454447746277
+      }
+    },
+    {
+      "id": "undefined_8.1.0",
+      "label": "8 1 0",
+      "name": "undefined_8.1.0",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1.0",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1_0",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.759554386138916
+      }
+    },
+    {
+      "id": "undefined_8.1.1",
+      "label": "8 1 1",
+      "name": "undefined_8.1.1",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1.1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1_1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7561473846435547
+      }
+    },
+    {
+      "id": "undefined_8.1.1.0",
+      "label": "8 1 1 0",
+      "name": "undefined_8.1.1.0",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1.1.0",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1_1_0",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "residential_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7587264776229858
+      }
+    },
+    {
+      "id": "undefined_8.1.1.1",
+      "label": "8 1 1 1",
+      "name": "undefined_8.1.1.1",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1.1.1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1_1_1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.7559269666671753
+      }
+    },
+    {
+      "id": "undefined_8.1.1.2",
+      "label": "8 1 1 2",
+      "name": "undefined_8.1.1.2",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.1.1.2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_1_1_2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.7514277100563049
+      }
+    },
+    {
+      "id": "undefined_8.0",
+      "label": "8 0",
+      "name": "undefined_8.0",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.0",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_0",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7613223791122437
+      }
+    },
+    {
+      "id": "undefined_8.0.1",
+      "label": "8 0 1",
+      "name": "undefined_8.0.1",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.0.1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_0_1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7578539848327637
+      }
+    },
+    {
+      "id": "undefined_8.0.0",
+      "label": "8 0 0",
+      "name": "undefined_8.0.0",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.0.0",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_0_0",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_address_line2",
+          "permanent_address_line2",
+          "residential_address_line1"
+        ],
+        "score": 0.7604892253875732
+      }
+    },
+    {
+      "id": "undefined_8.0.1 F",
+      "label": "8 0 1 F",
+      "name": "undefined_8.0.1 F",
+      "type": "text",
+      "section": "Undefined",
+      "context": "Page 1. Section: Undefined.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "undefined_8.0.1 F",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "8_0_1_f",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "residential_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.7472620010375977
+      }
+    },
+    {
+      "id": "SGQRLabelName1",
+      "label": "Name on SGQR Label",
+      "name": "SGQRLabelName1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: Name on SGQR Label",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        128.489,
+        206.935,
+        139.59099999999998,
+        12.111999999999995
+      ],
+      "rect_pct": [
+        0.21584777481369988,
+        0.7398151777548135,
+        0.23449794717072414,
+        0.014386677594460077
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "SGQRLabelName1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "name_on_sgqr_label",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_first_name",
+          "introducer_name",
+          "customer_middle_name"
+        ],
+        "score": 0.6924220323562622
+      }
+    },
+    {
+      "id": "SGQRId",
+      "label": "SGQR ID",
+      "name": "SGQRId",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: SGQR ID",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        334.396,
+        207.04,
+        187.94400000000002,
+        12.683000000000021
+      ],
+      "rect_pct": [
+        0.5617495077913439,
+        0.7390122224993764,
+        0.3157258145801276,
+        0.015064913468505413
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "SGQRId",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "sgqr_id",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "referral_code",
+          "permanent_address_line1"
+        ],
+        "score": 0.7223029136657715
+      }
+    },
+    {
+      "id": "SGQRPostal1",
+      "label": "Outlet Postal Code",
+      "name": "residential_zip_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: Outlet Postal Code",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        119.057,
+        183.581,
+        144.164,
+        12.683000000000021
+      ],
+      "rect_pct": [
+        0.20000302380744397,
+        0.7668769079095844,
+        0.24218009797136117,
+        0.015064913468505413
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "SGQRPostal1",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "residential_zip_code",
+        "suggested_new_field_name": "outlet_postal_code",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "residential_zip_code",
+          "residential_address_line1",
+          "residential_address_line2"
+        ],
+        "score": 0.5382882356643677
+      }
+    },
+    {
+      "id": "OutletLevel1",
+      "label": "Outlet Level & Unit Number",
+      "name": "OutletLevel1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: Outlet Level & Unit Number",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        151.574,
+        171.768,
+        27.472999999999985,
+        12.683999999999997
+      ],
+      "rect_pct": [
+        0.25462810528225566,
+        0.7809072444143534,
+        0.046151701059676496,
+        0.015066101272137688
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "OutletLevel1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "outlet_level_&_unit_number",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "currency",
+          "residential_address_line1"
+        ],
+        "score": 0.6575448513031006
+      }
+    },
+    {
+      "id": "Outlet_unit1",
+      "label": "undefined",
+      "name": "Outlet_unit1",
+      "type": "text",
+      "section": "Outlet",
+      "context": "Page 3. Section: Outlet. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        186.096,
+        171.407,
+        28.22,
+        12.682999999999993
+      ],
+      "rect_pct": [
+        0.31262137227101383,
+        0.7813372293292472,
+        0.04740658114891244,
+        0.015064913468505378
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Outlet_unit1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "currency",
+          "collateral_value",
+          "residential_address_line1"
+        ],
+        "score": 0.7576160430908203
+      }
+    },
+    {
+      "id": "Text4-111122",
+      "label": "Text4-111122",
+      "name": "Text4-111122",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        381.521,
+        183.447,
+        139.51499999999993,
+        12.683999999999997
+      ],
+      "rect_pct": [
+        0.6409144665667691,
+        0.7670348857926808,
+        0.23437027530086874,
+        0.015066101272137688
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-111122",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text4-111122",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.6505746841430664
+      }
+    },
+    {
+      "id": "PaymentReference",
+      "label": "Payment Reference",
+      "name": "loan_amount_requested",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: Payment Reference",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        119.685,
+        153.29,
+        122.596,
+        12.683000000000021
+      ],
+      "rect_pct": [
+        0.20105799662677482,
+        0.8028566677356899,
+        0.20594816522083875,
+        0.015064913468505413
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "PaymentReference",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "loan_amount_requested",
+        "suggested_new_field_name": "payment_reference",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "loan_amount_requested",
+          "collateral_value",
+          "bank_verification_code"
+        ],
+        "score": 0.6310818195343018
+      }
+    },
+    {
+      "id": "Text4-1111222",
+      "label": "Text4-1111222",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        373.322,
+        153.992,
+        123.46800000000002,
+        12.683000000000021
+      ],
+      "rect_pct": [
+        0.6271410236596134,
+        0.8020228295858128,
+        0.2074130319381262,
+        0.015064913468505413
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text4-1111222",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "text4-1111222",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "mailing_address_line2"
+        ],
+        "score": 0.64409339427948
+      }
+    },
+    {
+      "id": "1",
+      "label": "undefined",
+      "name": "1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        160.752,
+        467.277,
+        8.508999999999986,
+        8.508000000000038
+      ],
+      "rect_pct": [
+        0.2700461634603109,
+        0.4348608488044756,
+        0.014294209744723434,
+        0.010105833303638288
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "total_assets",
+          "residential_address_line1"
+        ],
+        "score": 0.8041601777076721
+      }
+    },
+    {
+      "id": "1.SGQR Yes",
+      "label": "1.Sgqr Yes",
+      "name": "1.SGQR Yes",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR Yes",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_yes",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "collateral_value"
+        ],
+        "score": 0.7019396424293518
+      }
+    },
+    {
+      "id": "1.SGQR No",
+      "label": "1.Sgqr No",
+      "name": "1.SGQR No",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR No",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_no",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6921791434288025
+      }
+    },
+    {
+      "id": "1.SGQR 8",
+      "label": "1.Sgqr 8",
+      "name": "1.SGQR 8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR 8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.690227210521698
+      }
+    },
+    {
+      "id": "1.SGQR 12",
+      "label": "1.Sgqr 12",
+      "name": "1.SGQR 12",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR 12",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_12",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6925221085548401
+      }
+    },
+    {
+      "id": "1.SGQR 16",
+      "label": "1.Sgqr 16",
+      "name": "1.SGQR 16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR 16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6862801909446716
+      }
+    },
+    {
+      "id": "1.SGQR 20",
+      "label": "1.Sgqr 20",
+      "name": "1.SGQR 20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR 20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "collateral_value"
+        ],
+        "score": 0.6944795846939087
+      }
+    },
+    {
+      "id": "1.SGQR 4",
+      "label": "1.Sgqr 4",
+      "name": "1.SGQR 4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "1.SGQR 4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "1.sgqr_4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6882072687149048
+      }
+    },
+    {
+      "id": "2",
+      "label": "undefined",
+      "name": "2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        197.348,
+        466.551,
+        8.508999999999986,
+        8.509000000000015
+      ],
+      "rect_pct": [
+        0.3315235285817,
+        0.43572200643789566,
+        0.014294209744723434,
+        0.010107021107270563
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "total_assets",
+          "residential_address_line1"
+        ],
+        "score": 0.8041601777076721
+      }
+    },
+    {
+      "id": "2.SGQR Yes",
+      "label": "2.Sgqr Yes",
+      "name": "2.SGQR Yes",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR Yes",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_yes",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "referral_code"
+        ],
+        "score": 0.7027829885482788
+      }
+    },
+    {
+      "id": "2.SGQR No",
+      "label": "2.Sgqr No",
+      "name": "2.SGQR No",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR No",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_no",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6897578835487366
+      }
+    },
+    {
+      "id": "2.SGQR 4",
+      "label": "2.Sgqr 4",
+      "name": "2.SGQR 4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR 4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6921526789665222
+      }
+    },
+    {
+      "id": "2.SGQR 8",
+      "label": "2.Sgqr 8",
+      "name": "2.SGQR 8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR 8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6933477520942688
+      }
+    },
+    {
+      "id": "2.SGQR 12",
+      "label": "2.Sgqr 12",
+      "name": "2.SGQR 12",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR 12",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_12",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6930662393569946
+      }
+    },
+    {
+      "id": "2.SGQR 16",
+      "label": "2.Sgqr 16",
+      "name": "2.SGQR 16",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR 16",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_16",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6850895881652832
+      }
+    },
+    {
+      "id": "2.SGQR 20",
+      "label": "2.Sgqr 20",
+      "name": "2.SGQR 20",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "2.SGQR 20",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "2.sgqr_20",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6939525604248047
+      }
+    },
+    {
+      "id": "registerSGQR",
+      "label": "undefined",
+      "name": "registerSGQR",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        50.1646,
+        75.9753,
+        8.509,
+        8.509
+      ],
+      "rect_pct": [
+        0.08427116161242852,
+        0.8996492415873808,
+        0.014294209744723457,
+        0.010107021107270547
+      ],
+      "page": 3,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "registerSGQR",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "total_assets",
+          "residential_address_line1"
+        ],
+        "score": 0.8041601777076721
+      }
+    },
+    {
+      "id": "IDEAL LOAN AUTHORISATION Check Box1",
+      "label": "Ideal Loan Authorisation Check Box1",
+      "name": "bank_verification_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 4. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        50.603,
+        396.2,
+        8.732700000000001,
+        8.376000000000033
+      ],
+      "rect_pct": [
+        0.08500762671433085,
+        0.5194431576571761,
+        0.01467000181428447,
+        0.009949043224174219
+      ],
+      "page": 4,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "IDEAL LOAN AUTHORISATION Check Box1",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "bank_verification_code",
+        "suggested_new_field_name": "ideal_loan_authorisation_check_box1",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "bank_verification_code",
+          "loan_purpose",
+          "loan_amount_requested"
+        ],
+        "score": 0.5284832715988159
+      }
+    },
+    {
+      "id": "IDEAL LOAN AUTHORISATION Check Box2",
+      "label": "Ideal Loan Authorisation Check Box2",
+      "name": "bank_verification_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 4. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        261.554,
+        395.902,
+        8.733000000000004,
+        8.37700000000001
+      ],
+      "rect_pct": [
+        0.43938274010711,
+        0.5197959353359702,
+        0.014670505782191798,
+        0.009950231027806495
+      ],
+      "page": 4,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "IDEAL LOAN AUTHORISATION Check Box2",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "bank_verification_code",
+        "suggested_new_field_name": "ideal_loan_authorisation_check_box2",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "bank_verification_code",
+          "loan_purpose",
+          "loan_amount_requested"
+        ],
+        "score": 0.5257539749145508
+      }
+    },
+    {
+      "id": "Text5-2",
+      "label": "Text5-2",
+      "name": "Text5-2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        72.3312,
+        654.573,
+        44.1888,
+        11.625
+      ],
+      "rect_pct": [
+        0.12150867832736412,
+        0.20868759576666787,
+        0.07423245687714607,
+        0.013808217225528276
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-2",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-2",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6841261386871338
+      }
+    },
+    {
+      "id": "Text5-1",
+      "label": "Text5-1",
+      "name": "Text5-1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        72.2717,
+        664.534,
+        222.0593,
+        11.990999999999985
+      ],
+      "rect_pct": [
+        0.1214087246924116,
+        0.19642114765586954,
+        0.3730358690758573,
+        0.014242953354951342
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6862956285476685
+      }
+    },
+    {
+      "id": "Text5-3",
+      "label": "Text5-3",
+      "name": "Text5-3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        327.285,
+        664.538,
+        220.579,
+        11.992999999999938
+      ],
+      "rect_pct": [
+        0.5498037884947488,
+        0.19641402083407575,
+        0.3705491234318199,
+        0.014245328962215894
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-3",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-3",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6922542452812195
+      }
+    },
+    {
+      "id": "Text5-4",
+      "label": "Text5-4",
+      "name": "Text5-4",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        327.214,
+        654.285,
+        43.42700000000002,
+        11.953000000000088
+      ],
+      "rect_pct": [
+        0.5496845160900155,
+        0.20864008362137562,
+        0.07295271437114889,
+        0.014197816816923932
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-4",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-4",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6889711618423462
+      }
+    },
+    {
+      "id": "Text5-5",
+      "label": "Text5-5",
+      "name": "Text5-5",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        73.7412,
+        612.067,
+        220.58980000000003,
+        11.82899999999995
+      ],
+      "rect_pct": [
+        0.12387732749178534,
+        0.25893406502037086,
+        0.37056726627648356,
+        0.014050529166518133
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-5",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-5",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "place_of_birth"
+        ],
+        "score": 0.6949009299278259
+      }
+    },
+    {
+      "id": "Text5-7",
+      "label": "Text5-7",
+      "name": "Text5-7",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        327.561,
+        611.98,
+        220.223,
+        12.281999999999925
+      ],
+      "rect_pct": [
+        0.5502674389694864,
+        0.2584993288909478,
+        0.3699510815151292,
+        0.014588604211951592
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-7",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-7",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "place_of_birth"
+        ],
+        "score": 0.6894999146461487
+      }
+    },
+    {
+      "id": "Text5-6",
+      "label": "Text5-6",
+      "name": "Text5-6",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        73.8476,
+        601.22,
+        43.6964,
+        12.444999999999936
+      ],
+      "rect_pct": [
+        0.12405606810958279,
+        0.27108648398246804,
+        0.0734052775519255,
+        0.014782216204017077
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-6",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-6",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6840120553970337
+      }
+    },
+    {
+      "id": "Text5-8",
+      "label": "Text5-8",
+      "name": "Text5-8",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        327.6,
+        601.135,
+        43.69599999999997,
+        12.770999999999958
+      ],
+      "rect_pct": [
+        0.5503329547974386,
+        0.2708002233070829,
+        0.07340460559471568,
+        0.015169440188148045
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text5-8",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text5-8",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "employer_address"
+        ],
+        "score": 0.6916647553443909
+      }
+    },
+    {
+      "id": "Text1",
+      "label": "Text1",
+      "name": "Text1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 5. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        222.094,
+        417.648,
+        70.51400000000001,
+        7.029999999999973
+      ],
+      "rect_pct": [
+        0.37309416136380436,
+        0.495565929040611,
+        0.11845597672340227,
+        0.008350259535093626
+      ],
+      "page": 5,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "Text1",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "text1",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "introducer_name"
+        ],
+        "score": 0.6808949112892151
+      }
+    },
+    {
+      "id": "All administrators can authorise own requests",
+      "label": "undefined",
+      "name": "All administrators can authorise own requests",
+      "type": "text",
+      "section": "General",
+      "context": "Page 4. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        51.3488,
+        588.707,
+        8.509100000000004,
+        8.509000000000015
+      ],
+      "rect_pct": [
+        0.08626049093193745,
+        0.2906246659302284,
+        0.014294377734025905,
+        0.010107021107270563
+      ],
+      "page": 4,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "All administrators can authorise own requests",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "total_assets",
+          "residential_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.8017765283584595
+      }
+    },
+    {
+      "id": "eStatements",
+      "label": "undefined",
+      "name": "eStatements",
+      "type": "text",
+      "section": "General",
+      "context": "Page 4. Section: General. Tooltip: undefined",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        50.1376,
+        647.636,
+        8.509100000000004,
+        8.509000000000015
+      ],
+      "rect_pct": [
+        0.0842258045007694,
+        0.22062858568221502,
+        0.014294377734025905,
+        0.010107021107270563
+      ],
+      "page": 4,
+      "page_dims": [
+        595.276,
+        841.89
+      ],
+      "original_name": "eStatements",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "undefined",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "total_assets",
+          "residential_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.8017765283584595
+      }
+    }
+  ]
+}

@@ -1,0 +1,3305 @@
+{
+  "template_id": "TradePMR.com_NAHS_Non-IndividualAccountHoldersSupplement_May2020-1 (1).pdf",
+  "last_updated": "2025-12-11T21:46:49.202968",
+  "mappings": [
+    {
+      "id": "Account Name",
+      "label": "Account Name",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.7214,
+        648.275,
+        203.5206,
+        13.800000000000068
+      ],
+      "rect_pct": [
+        0.09431601307189542,
+        0.16404671717171712,
+        0.33255,
+        0.01742424242424251
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "introducer_account_no"
+        ],
+        "score": 0.5283024907112122
+      }
+    },
+    {
+      "id": "Account Type",
+      "label": "Account Type",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        268.922,
+        648.275,
+        142.32,
+        13.800000000000068
+      ],
+      "rect_pct": [
+        0.4394150326797386,
+        0.16404671717171712,
+        0.23254901960784313,
+        0.01742424242424251
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Type",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_type",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "account_type",
+          "introducer_name"
+        ],
+        "score": 0.5542922019958496
+      }
+    },
+    {
+      "id": "Fourth First Name/Name of Entity",
+      "label": "Fourth First Name/Name Of Entity",
+      "name": "customer_first_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        114.907,
+        582.594,
+        148.95100000000002,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.1877565359477124,
+        0.2469772727272727,
+        0.24338398692810462,
+        0.017424242424242366
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth First Name/Name of Entity",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_first_name",
+        "suggested_new_field_name": "fourth_first_name/name_of_entity",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_first_name",
+          "customer_middle_name",
+          "introducer_name"
+        ],
+        "score": 0.5611964464187622
+      }
+    },
+    {
+      "id": "Fourth Middle Initial",
+      "label": "Fourth Middle Initial",
+      "name": "Fourth Middle Initial",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        314.732,
+        582.594,
+        79.78999999999996,
+        13.80099999999993
+      ],
+      "rect_pct": [
+        0.5142679738562091,
+        0.2469760101010101,
+        0.13037581699346398,
+        0.017425505050504962
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Middle Initial",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fourth_middle_initial",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_middle_name",
+          "permanent_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.6514459848403931
+      }
+    },
+    {
+      "id": "Fourth Last Name",
+      "label": "Fourth Last Name",
+      "name": "customer_first_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        438.963,
+        582.594,
+        122.44199999999995,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.7172598039215686,
+        0.2469772727272727,
+        0.2000686274509803,
+        0.017424242424242366
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Last Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_first_name",
+        "suggested_new_field_name": "fourth_last_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_first_name",
+          "customer_middle_name",
+          "introducer_name"
+        ],
+        "score": 0.585368275642395
+      }
+    },
+    {
+      "id": "Fourth SSN",
+      "label": "Fourth Ssn",
+      "name": "Fourth SSN",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        163.347,
+        560.388,
+        161.27899999999997,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.26690686274509806,
+        0.27501515151515155,
+        0.26352777777777775,
+        0.017424242424242366
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth SSN",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fourth_ssn",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "identification_number",
+          "permanent_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.6920887231826782
+      }
+    },
+    {
+      "id": "Fourth DOB",
+      "label": "Fourth Dob",
+      "name": "Fourth DOB",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        384.605,
+        574.843,
+        176.79999999999995,
+        -13.799999999999955
+      ],
+      "rect_pct": [
+        0.6284395424836602,
+        0.29161237373737375,
+        0.2888888888888888,
+        -0.017424242424242366
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth DOB",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fourth_dob",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "nominee_dob",
+          "introducer_name"
+        ],
+        "score": 0.6805791854858398
+      }
+    },
+    {
+      "id": "Fourth Primary Phone",
+      "label": "Fourth Primary Phone",
+      "name": "mobile_number",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        120.603,
+        539.979,
+        203.361,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.19706372549019607,
+        0.3007840909090909,
+        0.3322892156862745,
+        0.017424242424242366
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Primary Phone",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mobile_number",
+        "suggested_new_field_name": "fourth_primary_phone",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mobile_number",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.6185787320137024
+      }
+    },
+    {
+      "id": "Fourth Email",
+      "label": "Fourth Email",
+      "name": "mailing_address_line1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        387.771,
+        540.634,
+        172.97899999999998,
+        13.144999999999982
+      ],
+      "rect_pct": [
+        0.6336127450980392,
+        0.3007840909090909,
+        0.28264542483660127,
+        0.0165972222222222
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Email",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mailing_address_line1",
+        "suggested_new_field_name": "fourth_email",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mailing_address_line1",
+          "mailing_address_line2",
+          "permanent_address_line2"
+        ],
+        "score": 0.6187539100646973
+      }
+    },
+    {
+      "id": "Fourth Legal Address",
+      "label": "Fourth Legal Address",
+      "name": "permanent_address_line1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        166.481,
+        521.786,
+        394.269,
+        13.800000000000068
+      ],
+      "rect_pct": [
+        0.27202777777777776,
+        0.3237550505050505,
+        0.6442303921568627,
+        0.01742424242424251
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Legal Address",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line1",
+        "suggested_new_field_name": "fourth_legal_address",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "employer_address"
+        ],
+        "score": 0.5279334783554077
+      }
+    },
+    {
+      "id": "Fourth Legal City",
+      "label": "Fourth Legal City",
+      "name": "permanent_city",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        80.804,
+        502.843,
+        229.69899999999998,
+        13.800999999999988
+      ],
+      "rect_pct": [
+        0.1320326797385621,
+        0.3476717171717172,
+        0.37532516339869276,
+        0.017425505050505035
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Legal City",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_city",
+        "suggested_new_field_name": "fourth_legal_city",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_city",
+          "residential_city",
+          "guardian_name"
+        ],
+        "score": 0.5921622514724731
+      }
+    },
+    {
+      "id": "Fourth Legal State",
+      "label": "Fourth Legal State",
+      "name": "guardian_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        340.116,
+        502.843,
+        112.68,
+        13.800999999999988
+      ],
+      "rect_pct": [
+        0.5557450980392157,
+        0.3476717171717172,
+        0.18411764705882355,
+        0.017425505050505035
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Legal State",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "guardian_name",
+        "suggested_new_field_name": "fourth_legal_state",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "guardian_name",
+          "id_issuing_authority",
+          "permanent_state"
+        ],
+        "score": 0.5893835425376892
+      }
+    },
+    {
+      "id": "Fourth Legal Zip",
+      "label": "Fourth Legal Zip",
+      "name": "permanent_zip_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        475.318,
+        502.844,
+        86.74099999999999,
+        13.799000000000035
+      ],
+      "rect_pct": [
+        0.7766633986928104,
+        0.3476729797979798,
+        0.14173366013071892,
+        0.017422979797979844
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Legal Zip",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_zip_code",
+        "suggested_new_field_name": "fourth_legal_zip",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_zip_code",
+          "residential_zip_code",
+          "mailing_zip"
+        ],
+        "score": 0.5325503349304199
+      }
+    },
+    {
+      "id": "Fourth Citizenship",
+      "label": "Fourth Citizenship",
+      "name": "customer_nationality",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        249.531,
+        478.73,
+        6.09699999999998,
+        5.604999999999961
+      ],
+      "rect_pct": [
+        0.40773039215686274,
+        0.3884659090909091,
+        0.009962418300653562,
+        0.007077020202020153
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Citizenship",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_nationality",
+        "suggested_new_field_name": "fourth_citizenship",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_nationality",
+          "nationality",
+          "us_person_check"
+        ],
+        "score": 0.5298357009887695
+      }
+    },
+    {
+      "id": "Fourth Occupation",
+      "label": "Fourth Occupation",
+      "name": "occupation",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        209.702,
+        405.288,
+        5.777999999999992,
+        5.656000000000006
+      ],
+      "rect_pct": [
+        0.3426503267973856,
+        0.48113131313131313,
+        0.009441176470588222,
+        0.007141414141414149
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Occupation",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "occupation",
+        "suggested_new_field_name": "fourth_occupation",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "occupation",
+          "employer_address",
+          "permanent_address_line1"
+        ],
+        "score": 0.5899469256401062
+      }
+    },
+    {
+      "id": "Fourth Employer Name",
+      "label": "Fourth Employer Name",
+      "name": "employer_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        171.481,
+        369.554,
+        386.54200000000003,
+        16.091000000000008
+      ],
+      "rect_pct": [
+        0.28019771241830066,
+        0.513074494949495,
+        0.6316045751633987,
+        0.020316919191919202
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Employer Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "employer_name",
+        "suggested_new_field_name": "fourth_employer_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "employer_name",
+          "employer_address",
+          "employer_phone"
+        ],
+        "score": 0.47502654790878296
+      }
+    },
+    {
+      "id": "Fourth Yes Associated Employed",
+      "label": "If yes, click here",
+      "name": "Fourth Yes Associated Employed",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        59.282,
+        342.487,
+        8.939800000000005,
+        7.649000000000001
+      ],
+      "rect_pct": [
+        0.09686601307189542,
+        0.5579090909090909,
+        0.01460751633986929,
+        0.009657828282828284
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Yes Associated Employed",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "referral_code"
+        ],
+        "score": 0.8000325560569763
+      }
+    },
+    {
+      "id": "Fourth Yes Director Shareholder Policy-maker",
+      "label": "If yes, click here",
+      "name": "Fourth Yes Director Shareholder Policy-maker",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        59.282,
+        286.477,
+        8.939800000000005,
+        8.30400000000003
+      ],
+      "rect_pct": [
+        0.09686601307189542,
+        0.6278017676767677,
+        0.01460751633986929,
+        0.010484848484848524
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Yes Director Shareholder Policy-maker",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "referral_code"
+        ],
+        "score": 0.8000325560569763
+      }
+    },
+    {
+      "id": "Fourth Symbol",
+      "label": "Fourth Symbol",
+      "name": "Fourth Symbol",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        203.953,
+        263.589,
+        107.65099999999998,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.33325653594771243,
+        0.6497613636363636,
+        0.1759003267973856,
+        0.01742424242424244
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Symbol",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fourth_symbol",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "purpose_of_account"
+        ],
+        "score": 0.6868470907211304
+      }
+    },
+    {
+      "id": "Fourth CUSIP",
+      "label": "Fourth Cusip",
+      "name": "Fourth CUSIP",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        349.438,
+        263.589,
+        106.34199999999998,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.5709771241830065,
+        0.6497613636363636,
+        0.1737614379084967,
+        0.01742424242424244
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth CUSIP",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fourth_cusip",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "purpose_of_account"
+        ],
+        "score": 0.6603415012359619
+      }
+    },
+    {
+      "id": "Fourth Yes Foreign Political Official",
+      "label": "If yes, click here",
+      "name": "Fourth Yes Foreign Political Official",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        59.282,
+        249.093,
+        8.939800000000005,
+        7.649000000000029
+      ],
+      "rect_pct": [
+        0.09686601307189542,
+        0.6758308080808081,
+        0.01460751633986929,
+        0.00965782828282832
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth Yes Foreign Political Official",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "referral_code"
+        ],
+        "score": 0.8000325560569763
+      }
+    },
+    {
+      "id": "Fourth affiliated",
+      "label": "If yes, click here",
+      "name": "Fourth affiliated",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        59.282,
+        315.377,
+        8.939800000000005,
+        7.649000000000001
+      ],
+      "rect_pct": [
+        0.09686601307189542,
+        0.5921388888888889,
+        0.01460751633986929,
+        0.009657828282828284
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fourth affiliated",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "referral_code"
+        ],
+        "score": 0.8000325560569763
+      }
+    },
+    {
+      "id": "Fifth First Name/Name of Entity",
+      "label": "Fifth First Name/Name Of Entity",
+      "name": "customer_first_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        116.169,
+        182.845,
+        145.02500000000003,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.18981862745098038,
+        0.7517108585858586,
+        0.23696895424836606,
+        0.01742424242424244
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth First Name/Name of Entity",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_first_name",
+        "suggested_new_field_name": "fifth_first_name/name_of_entity",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_first_name",
+          "customer_middle_name",
+          "introducer_name"
+        ],
+        "score": 0.5605608820915222
+      }
+    },
+    {
+      "id": "Fifth Middle Initial",
+      "label": "Fifth Middle Initial",
+      "name": "customer_middle_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        314.676,
+        181.863,
+        79.13400000000001,
+        15.763000000000005
+      ],
+      "rect_pct": [
+        0.5141764705882352,
+        0.7504722222222222,
+        0.12930392156862747,
+        0.019902777777777783
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Middle Initial",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_middle_name",
+        "suggested_new_field_name": "fifth_middle_initial",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_middle_name",
+          "permanent_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.640825629234314
+      }
+    },
+    {
+      "id": "Fifth Last Name",
+      "label": "Fifth Last Name",
+      "name": "customer_middle_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        439.212,
+        182.517,
+        121.13300000000004,
+        14.455000000000013
+      ],
+      "rect_pct": [
+        0.7176666666666667,
+        0.7512979797979799,
+        0.19792973856209156,
+        0.018251262626262643
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Last Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_middle_name",
+        "suggested_new_field_name": "fifth_last_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_middle_name",
+          "customer_first_name",
+          "introducer_name"
+        ],
+        "score": 0.5753427743911743
+      }
+    },
+    {
+      "id": "Fifth SSN",
+      "label": "Fifth Ssn",
+      "name": "Fifth SSN",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        160.724,
+        160.215,
+        162.55700000000002,
+        13.799999999999983
+      ],
+      "rect_pct": [
+        0.2626209150326797,
+        0.7802840909090909,
+        0.2656160130718955,
+        0.0174242424242424
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth SSN",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fifth_ssn",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "identification_number",
+          "bank_verification_code",
+          "business_reg_number"
+        ],
+        "score": 0.6663199067115784
+      }
+    },
+    {
+      "id": "Fifth DOB",
+      "label": "Fifth Dob",
+      "name": "Fifth DOB",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        384.5,
+        160.777,
+        176.14599999999996,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.6282679738562091,
+        0.7795744949494949,
+        0.28782026143790845,
+        0.01742424242424244
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth DOB",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fifth_dob",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "nominee_dob",
+          "customer_dob",
+          "permanent_address_line2"
+        ],
+        "score": 0.673770546913147
+      }
+    },
+    {
+      "id": "Fifth Primary Phone",
+      "label": "Fifth Primary Phone",
+      "name": "mobile_number",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        119.216,
+        139.768,
+        204.29399999999998,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.19479738562091503,
+        0.8061010101010101,
+        0.33381372549019606,
+        0.01742424242424244
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Primary Phone",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mobile_number",
+        "suggested_new_field_name": "fifth_primary_phone",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mobile_number",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.6196410655975342
+      }
+    },
+    {
+      "id": "Fifth Email",
+      "label": "Fifth Email",
+      "name": "mailing_address_line1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        387.101,
+        138.47,
+        173.63400000000001,
+        15.109000000000009
+      ],
+      "rect_pct": [
+        0.6325179738562091,
+        0.8060871212121212,
+        0.2837156862745098,
+        0.019077020202020213
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Email",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mailing_address_line1",
+        "suggested_new_field_name": "fifth_email",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mailing_address_line1",
+          "mailing_address_line2",
+          "permanent_address_line2"
+        ],
+        "score": 0.6332343220710754
+      }
+    },
+    {
+      "id": "Fifth Legal Address",
+      "label": "Fifth Legal Address",
+      "name": "permanent_address_line1",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        165.911,
+        122.586,
+        394.85999999999996,
+        13.799999999999997
+      ],
+      "rect_pct": [
+        0.27109640522875816,
+        0.8277954545454546,
+        0.6451960784313725,
+        0.017424242424242422
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Legal Address",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line1",
+        "suggested_new_field_name": "fifth_legal_address",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line1",
+          "permanent_address_line2",
+          "employer_address"
+        ],
+        "score": 0.5433459281921387
+      }
+    },
+    {
+      "id": "Fifth Legal City",
+      "label": "Fifth Legal City",
+      "name": "permanent_city",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        82.658,
+        102.663,
+        226.71799999999996,
+        13.799999999999997
+      ],
+      "rect_pct": [
+        0.13506209150326798,
+        0.8529507575757577,
+        0.370454248366013,
+        0.017424242424242422
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Legal City",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_city",
+        "suggested_new_field_name": "fifth_legal_city",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_city",
+          "guardian_name",
+          "residential_city"
+        ],
+        "score": 0.5996811389923096
+      }
+    },
+    {
+      "id": "Fifth Legal State",
+      "label": "Fifth Legal State",
+      "name": "guardian_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        337.678,
+        102.642,
+        115.29899999999998,
+        13.799999999999997
+      ],
+      "rect_pct": [
+        0.5517614379084967,
+        0.8529772727272728,
+        0.1883970588235294,
+        0.017424242424242422
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Legal State",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "guardian_name",
+        "suggested_new_field_name": "fifth_legal_state",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "guardian_name",
+          "id_issuing_authority",
+          "permanent_state"
+        ],
+        "score": 0.5856744050979614
+      }
+    },
+    {
+      "id": "Fifth Legal Zip",
+      "label": "Fifth Legal Zip",
+      "name": "permanent_zip_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        474.236,
+        102.632,
+        86.74000000000001,
+        13.799999999999997
+      ],
+      "rect_pct": [
+        0.7748954248366013,
+        0.852989898989899,
+        0.14173202614379085,
+        0.017424242424242422
+      ],
+      "page": 1,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Legal Zip",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_zip_code",
+        "suggested_new_field_name": "fifth_legal_zip",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_zip_code",
+          "residential_zip_code",
+          "mailing_zip"
+        ],
+        "score": 0.5376986265182495
+      }
+    },
+    {
+      "id": "Fifth Citizenship",
+      "label": "Fifth Citizenship",
+      "name": "customer_nationality",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        249.381,
+        689.37,
+        5.768000000000001,
+        5.605000000000018
+      ],
+      "rect_pct": [
+        0.40748529411764706,
+        0.1225063131313131,
+        0.00942483660130719,
+        0.007077020202020225
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Citizenship",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_nationality",
+        "suggested_new_field_name": "fifth_citizenship",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_nationality",
+          "nationality",
+          "us_person_check"
+        ],
+        "score": 0.5352905988693237
+      }
+    },
+    {
+      "id": "Fifth Employer Name",
+      "label": "Fifth Employer Name",
+      "name": "employer_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        171.326,
+        581.969,
+        387.95899999999995,
+        16.853999999999928
+      ],
+      "rect_pct": [
+        0.27994444444444444,
+        0.24391035353535356,
+        0.6339199346405228,
+        0.02128030303030294
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Employer Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "employer_name",
+        "suggested_new_field_name": "fifth_employer_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "employer_name",
+          "employer_address",
+          "employer_phone"
+        ],
+        "score": 0.4743621349334717
+      }
+    },
+    {
+      "id": "Fifth Occupation",
+      "label": "Fifth Occupation",
+      "name": "occupation",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        209.642,
+        616.058,
+        5.777999999999992,
+        5.656000000000063
+      ],
+      "rect_pct": [
+        0.34255228758169937,
+        0.21500757575757568,
+        0.009441176470588222,
+        0.007141414141414221
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Occupation",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "occupation",
+        "suggested_new_field_name": "fifth_occupation",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "occupation",
+          "employer_address",
+          "permanent_address_line2"
+        ],
+        "score": 0.6026908159255981
+      }
+    },
+    {
+      "id": "Fifth Yes Associated Employed",
+      "label": "If yes, click here",
+      "name": "Fifth Yes Associated Employed",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.891,
+        555.752,
+        7.9798000000000044,
+        7.605000000000018
+      ],
+      "rect_pct": [
+        0.09459313725490195,
+        0.2886906565656566,
+        0.013038888888888897,
+        0.009602272727272751
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Yes Associated Employed",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "employer_address"
+        ],
+        "score": 0.8020503520965576
+      }
+    },
+    {
+      "id": "Fifth Yes Director Shareholder Policy-maker",
+      "label": "If yes, click here",
+      "name": "Fifth Yes Director Shareholder Policy-maker",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.891,
+        500.321,
+        7.9798000000000044,
+        7.3870000000000005
+      ],
+      "rect_pct": [
+        0.09459313725490195,
+        0.3589545454545454,
+        0.013038888888888897,
+        0.009327020202020203
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Yes Director Shareholder Policy-maker",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "employer_address"
+        ],
+        "score": 0.8020503520965576
+      }
+    },
+    {
+      "id": "Fifth Symbol",
+      "label": "Fifth Symbol",
+      "name": "Fifth Symbol",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        202.186,
+        478.101,
+        107.97900000000001,
+        13.798999999999978
+      ],
+      "rect_pct": [
+        0.33036928104575164,
+        0.3789141414141414,
+        0.17643627450980395,
+        0.01742297979797977
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Symbol",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fifth_symbol",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "currency",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.7095739841461182
+      }
+    },
+    {
+      "id": "Fifth CUSIP",
+      "label": "Fifth Cusip",
+      "name": "Fifth CUSIP",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        345.527,
+        478.048,
+        108.96100000000001,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.5645866013071895,
+        0.37897979797979797,
+        0.17804084967320263,
+        0.01742424242424244
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth CUSIP",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "fifth_cusip",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "pan_acknowledgement_no"
+        ],
+        "score": 0.6730763912200928
+      }
+    },
+    {
+      "id": "Fifth Yes Foreign Political Official",
+      "label": "If yes, click here",
+      "name": "Fifth Yes Foreign Political Official",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.891,
+        463.178,
+        7.9798000000000044,
+        7.170000000000016
+      ],
+      "rect_pct": [
+        0.09459313725490195,
+        0.4061262626262626,
+        0.013038888888888897,
+        0.009053030303030323
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Yes Foreign Political Official",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "employer_address"
+        ],
+        "score": 0.8020503520965576
+      }
+    },
+    {
+      "id": "Account Number",
+      "label": "Account Number",
+      "name": "account_number",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        468.437,
+        750.081,
+        99.36599999999999,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.7654199346405229,
+        0.03550378787878791,
+        0.1623627450980392,
+        0.017424242424242366
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Number",
+      "mapping_status": "auto",
+      "mapping_proposal": {
+        "canonical_field_id": "account_number",
+        "suggested_new_field_name": "account_number",
+        "confidence": "High",
+        "source": "auto_embedding",
+        "candidates": [
+          "account_number"
+        ],
+        "score": 0.05
+      }
+    },
+    {
+      "id": "Fifth Affiliated",
+      "label": "If yes, click here",
+      "name": "Fifth Affiliated",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General. Tooltip: If yes, click here",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.891,
+        528.221,
+        7.9798000000000044,
+        7.6059999999999945
+      ],
+      "rect_pct": [
+        0.09459313725490195,
+        0.3234507575757576,
+        0.013038888888888897,
+        0.009603535353535347
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Fifth Affiliated",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "if_yes,_click_here",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "collateral_value",
+          "total_assets",
+          "employer_address"
+        ],
+        "score": 0.8020503520965576
+      }
+    },
+    {
+      "id": "Sixth First Name/Name of Entity",
+      "label": "Sixth First Name/Name Of Entity",
+      "name": "customer_first_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        116.454,
+        396.826,
+        146.334,
+        14.454999999999984
+      ],
+      "rect_pct": [
+        0.19028431372549018,
+        0.4807058080808081,
+        0.23910784313725492,
+        0.018251262626262605
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth First Name/Name of Entity",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_first_name",
+        "suggested_new_field_name": "sixth_first_name/name_of_entity",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_first_name",
+          "customer_middle_name",
+          "introducer_name"
+        ],
+        "score": 0.5588637590408325
+      }
+    },
+    {
+      "id": "Sixth Middle Initial",
+      "label": "Sixth Middle Initial",
+      "name": "customer_middle_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        316.22,
+        396.826,
+        77.82499999999999,
+        14.454999999999984
+      ],
+      "rect_pct": [
+        0.5166993464052289,
+        0.4807058080808081,
+        0.12716503267973855,
+        0.018251262626262605
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Middle Initial",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_middle_name",
+        "suggested_new_field_name": "sixth_middle_initial",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_middle_name",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.6292847990989685
+      }
+    },
+    {
+      "id": "Sixth Last Name",
+      "label": "Sixth Last Name",
+      "name": "customer_middle_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        441.164,
+        396.826,
+        121.13300000000004,
+        14.454999999999984
+      ],
+      "rect_pct": [
+        0.7208562091503268,
+        0.4807058080808081,
+        0.19792973856209156,
+        0.018251262626262605
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Last Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "customer_middle_name",
+        "suggested_new_field_name": "sixth_last_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "customer_middle_name",
+          "customer_first_name",
+          "introducer_name"
+        ],
+        "score": 0.5626709461212158
+      }
+    },
+    {
+      "id": "Sixth SSN",
+      "label": "Sixth Ssn",
+      "name": "Sixth SSN",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        162.308,
+        374.142,
+        161.57299999999998,
+        14.454999999999984
+      ],
+      "rect_pct": [
+        0.26520915032679737,
+        0.5093472222222223,
+        0.2640081699346405,
+        0.018251262626262605
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth SSN",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "sixth_ssn",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "identification_number",
+          "bank_verification_code",
+          "permanent_address_line2"
+        ],
+        "score": 0.663353443145752
+      }
+    },
+    {
+      "id": "Sixth DOB",
+      "label": "Sixth Dob",
+      "name": "Sixth DOB",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        385.191,
+        374.142,
+        175.49200000000002,
+        14.454999999999984
+      ],
+      "rect_pct": [
+        0.6293970588235294,
+        0.5093472222222223,
+        0.28675163398692816,
+        0.018251262626262605
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth DOB",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "sixth_dob",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "nominee_dob",
+          "permanent_address_line1"
+        ],
+        "score": 0.6640185117721558
+      }
+    },
+    {
+      "id": "Sixth Primary Phone",
+      "label": "Sixth Primary Phone",
+      "name": "mobile_number",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        121.363,
+        353.438,
+        203.166,
+        15.109000000000037
+      ],
+      "rect_pct": [
+        0.19830555555555557,
+        0.5346628787878788,
+        0.33197058823529413,
+        0.019077020202020248
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Primary Phone",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mobile_number",
+        "suggested_new_field_name": "sixth_primary_phone",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mobile_number",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.5954147577285767
+      }
+    },
+    {
+      "id": "Sixth Email",
+      "label": "Sixth Email",
+      "name": "mailing_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        386.165,
+        353.438,
+        174.94299999999993,
+        15.109000000000037
+      ],
+      "rect_pct": [
+        0.6309885620915033,
+        0.5346628787878788,
+        0.28585457516339857,
+        0.019077020202020248
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Email",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "mailing_address_line2",
+        "suggested_new_field_name": "sixth_email",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "mailing_address_line2",
+          "mailing_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.5974113941192627
+      }
+    },
+    {
+      "id": "Sixth Legal Address",
+      "label": "Sixth Legal Address",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        166.142,
+        335.554,
+        394.676,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.2714738562091503,
+        0.5588964646464647,
+        0.6448954248366013,
+        0.01742424242424244
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Legal Address",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "sixth_legal_address",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "employer_address"
+        ],
+        "score": 0.5220524072647095
+      }
+    },
+    {
+      "id": "Sixth Legal City",
+      "label": "Sixth Legal City",
+      "name": "permanent_city",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        80.8552,
+        315.826,
+        225.30480000000003,
+        13.799999999999955
+      ],
+      "rect_pct": [
+        0.13211633986928104,
+        0.5838055555555556,
+        0.36814509803921575,
+        0.017424242424242366
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Legal City",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_city",
+        "suggested_new_field_name": "sixth_legal_city",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_city",
+          "residential_city",
+          "mailing_city"
+        ],
+        "score": 0.5797165632247925
+      }
+    },
+    {
+      "id": "Sixth Legal State",
+      "label": "Sixth Legal State",
+      "name": "guardian_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        337.735,
+        316.46,
+        116.60699999999997,
+        13.145000000000039
+      ],
+      "rect_pct": [
+        0.5518545751633988,
+        0.5838320707070707,
+        0.19053431372549015,
+        0.01659722222222227
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Legal State",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "guardian_name",
+        "suggested_new_field_name": "sixth_legal_state",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "guardian_name",
+          "id_issuing_authority",
+          "permanent_state"
+        ],
+        "score": 0.5796690583229065
+      }
+    },
+    {
+      "id": "Sixth Legal Zip",
+      "label": "Sixth Legal Zip",
+      "name": "permanent_zip_code",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        474.293,
+        315.795,
+        86.73900000000003,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.7749885620915032,
+        0.583844696969697,
+        0.1417303921568628,
+        0.01742424242424244
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Legal Zip",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_zip_code",
+        "suggested_new_field_name": "sixth_legal_zip",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_zip_code",
+          "residential_zip_code",
+          "mailing_zip"
+        ],
+        "score": 0.5220011472702026
+      }
+    },
+    {
+      "id": "Sixth Citizenship",
+      "label": "Sixth Citizenship",
+      "name": "nationality",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        249.672,
+        291.685,
+        5.768000000000001,
+        5.605000000000018
+      ],
+      "rect_pct": [
+        0.4079607843137255,
+        0.6246338383838383,
+        0.00942483660130719,
+        0.007077020202020225
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Citizenship",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "nationality",
+        "suggested_new_field_name": "sixth_citizenship",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "nationality",
+          "customer_nationality",
+          "us_person_check"
+        ],
+        "score": 0.5140004754066467
+      }
+    },
+    {
+      "id": "Sixth Occupation",
+      "label": "Sixth Occupation",
+      "name": "occupation",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        209.732,
+        218.255,
+        5.777999999999992,
+        5.656000000000006
+      ],
+      "rect_pct": [
+        0.34269934640522876,
+        0.7172840909090908,
+        0.009441176470588222,
+        0.007141414141414149
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Occupation",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "occupation",
+        "suggested_new_field_name": "sixth_occupation",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "occupation",
+          "employer_address",
+          "permanent_address_line2"
+        ],
+        "score": 0.5838254690170288
+      }
+    },
+    {
+      "id": "Sixth Employer Name",
+      "label": "Sixth Employer Name",
+      "name": "employer_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        170.845,
+        182.783,
+        388.98699999999997,
+        18.05000000000001
+      ],
+      "rect_pct": [
+        0.27915849673202614,
+        0.7464229797979799,
+        0.6355996732026143,
+        0.022790404040404055
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Employer Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "employer_name",
+        "suggested_new_field_name": "sixth_employer_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "employer_name",
+          "employer_address",
+          "employer_phone"
+        ],
+        "score": 0.4635069966316223
+      }
+    },
+    {
+      "id": "Sixth Yes Associated Employed",
+      "label": "Sixth Yes Associated Employed",
+      "name": "employer_address",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.7778,
+        157.704,
+        8.602800000000002,
+        7.838999999999999
+      ],
+      "rect_pct": [
+        0.09440816993464052,
+        0.7909810606060605,
+        0.014056862745098042,
+        0.009897727272727272
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Yes Associated Employed",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "employer_address",
+        "suggested_new_field_name": "sixth_yes_associated_employed",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "employer_address",
+          "employer_name",
+          "business_reg_number"
+        ],
+        "score": 0.62441486120224
+      }
+    },
+    {
+      "id": "Sixth Yes Director Shareholder Policy-maker",
+      "label": "Sixth Yes Director Shareholder Policy-Maker",
+      "name": "business_reg_number",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.7778,
+        101.498,
+        8.602800000000002,
+        7.402999999999992
+      ],
+      "rect_pct": [
+        0.09440816993464052,
+        0.8624987373737374,
+        0.014056862745098042,
+        0.009347222222222212
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Yes Director Shareholder Policy-maker",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "business_reg_number",
+        "suggested_new_field_name": "sixth_yes_director_shareholder_policy-maker",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "business_reg_number",
+          "guardian_name",
+          "id_issuing_authority"
+        ],
+        "score": 0.6323524713516235
+      }
+    },
+    {
+      "id": "Sixth Symbol",
+      "label": "Sixth Symbol",
+      "name": "Sixth Symbol",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        201.821,
+        78.8269,
+        107.65099999999998,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.32977287581699344,
+        0.8830468434343435,
+        0.1759003267973856,
+        0.01742424242424244
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Symbol",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "sixth_symbol",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "currency"
+        ],
+        "score": 0.6813873052597046
+      }
+    },
+    {
+      "id": "Sixth CUSIP",
+      "label": "Sixth Cusip",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        346.084,
+        78.8269,
+        108.305,
+        13.800000000000011
+      ],
+      "rect_pct": [
+        0.5654967320261438,
+        0.8830468434343435,
+        0.17696895424836603,
+        0.01742424242424244
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth CUSIP",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "sixth_cusip",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "pan_acknowledgement_no"
+        ],
+        "score": 0.6485525965690613
+      }
+    },
+    {
+      "id": "Sixth Yes Foreign Political Official",
+      "label": "Sixth Yes Foreign Political Official",
+      "name": "permanent_country",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.7778,
+        64.4292,
+        8.602800000000002,
+        7.8389000000000095
+      ],
+      "rect_pct": [
+        0.09440816993464052,
+        0.908752398989899,
+        0.014056862745098042,
+        0.009897601010101021
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Yes Foreign Political Official",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_country",
+        "suggested_new_field_name": "sixth_yes_foreign_political_official",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_country",
+          "customer_nationality",
+          "mailing_country"
+        ],
+        "score": 0.5555465221405029
+      }
+    },
+    {
+      "id": "Sixth Affiliated",
+      "label": "Sixth Affiliated",
+      "name": "permanent_address_line2",
+      "type": "text",
+      "section": "General",
+      "context": "Page 2. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        57.7778,
+        129.823,
+        8.602800000000002,
+        7.401999999999987
+      ],
+      "rect_pct": [
+        0.09440816993464052,
+        0.8267361111111111,
+        0.014056862745098042,
+        0.00934595959595958
+      ],
+      "page": 2,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Sixth Affiliated",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "permanent_address_line2",
+        "suggested_new_field_name": "sixth_affiliated",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6173477172851562
+      }
+    },
+    {
+      "id": "Entity Tax ID Number",
+      "label": "Entity Tax Id Number",
+      "name": "tin_3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        198.241,
+        673.488,
+        139.948,
+        17.07299999999998
+      ],
+      "rect_pct": [
+        0.3239232026143791,
+        0.12807954545454542,
+        0.2286732026143791,
+        0.021556818181818156
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Entity Tax ID Number",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "tin_3",
+        "suggested_new_field_name": "entity_tax_id_number",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "tin_3",
+          "tax_id_number_1",
+          "tax_id_number_2"
+        ],
+        "score": 0.5951992273330688
+      }
+    },
+    {
+      "id": "Add Tax Certification",
+      "label": "Add Tax Certification",
+      "name": "tin_3",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        90.5314,
+        574.022,
+        7.75739999999999,
+        7.580999999999904
+      ],
+      "rect_pct": [
+        0.14792712418300655,
+        0.26565277777777785,
+        0.012675490196078415,
+        0.009571969696969575
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Add Tax Certification",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "tin_3",
+        "suggested_new_field_name": "add_tax_certification",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "tin_3",
+          "tax_id_number_1",
+          "tax_id_number_2"
+        ],
+        "score": 0.5764805674552917
+      }
+    },
+    {
+      "id": "Account Holder 1 Print Name",
+      "label": "Account Holder 1 Print Name",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        237.865,
+        206.88,
+        136.058,
+        20.182000000000016
+      ],
+      "rect_pct": [
+        0.3886683006535948,
+        0.7133055555555555,
+        0.2223169934640523,
+        0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 1 Print Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_holder_1_print_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "introducer_account_no"
+        ],
+        "score": 0.5481749176979065
+      }
+    },
+    {
+      "id": "Account Holder 2 Print Name",
+      "label": "Account Holder 2 Print Name",
+      "name": "introducer_name",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        237.865,
+        198.252,
+        136.058,
+        -20.182000000000016
+      ],
+      "rect_pct": [
+        0.3886683006535948,
+        0.7751641414141415,
+        0.2223169934640523,
+        -0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 2 Print Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "introducer_name",
+        "suggested_new_field_name": "account_holder_2_print_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "purpose_of_account",
+          "introducer_account_no"
+        ],
+        "score": 0.5660685300827026
+      }
+    },
+    {
+      "id": "Account Holder 3 Print Name",
+      "label": "Account Holder 3 Print Name",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        237.865,
+        169.953,
+        136.058,
+        -20.182000000000016
+      ],
+      "rect_pct": [
+        0.3886683006535948,
+        0.810895202020202,
+        0.2223169934640523,
+        -0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 3 Print Name",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_holder_3_print_name",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "introducer_account_no"
+        ],
+        "score": 0.5697872638702393
+      }
+    },
+    {
+      "id": "TPMR",
+      "label": "Tpmr",
+      "name": "TPMR",
+      "type": "text",
+      "section": "General",
+      "context": "Page 1. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tpmr",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line1",
+          "permanent_address_line2"
+        ],
+        "score": 0.6820172071456909
+      }
+    },
+    {
+      "id": "TPMR.Tabs",
+      "label": "Tabs",
+      "name": "TPMR.Tabs",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "permanent_address_line2",
+          "permanent_address_line1",
+          "introducer_name"
+        ],
+        "score": 0.6779173612594604
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[2]",
+      "label": "Tabs Signers[2]",
+      "name": "TPMR.Tabs.Signers[2]",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[2]",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[2]",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.6609463691711426
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[2].SignHere",
+      "label": "Tabs Signers[2] Signhere",
+      "name": "TPMR.Tabs.Signers[2].SignHere",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[2].SignHere",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[2]_signhere",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "authorized_signatory_2",
+          "permanent_address_line2"
+        ],
+        "score": 0.6670836210250854
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[2].DateSigned",
+      "label": "Tabs Signers[2] Datesigned",
+      "name": "signature_date",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[2].DateSigned",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "signature_date",
+        "suggested_new_field_name": "tabs_signers[2]_datesigned",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "signature_date",
+          "id_issue_date",
+          "years_at_address"
+        ],
+        "score": 0.5829973220825195
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[3]",
+      "label": "Tabs Signers[3]",
+      "name": "TPMR.Tabs.Signers[3]",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[3]",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[3]",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.661277174949646
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[3].SignHere",
+      "label": "Tabs Signers[3] Signhere",
+      "name": "TPMR.Tabs.Signers[3].SignHere",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[3].SignHere",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[3]_signhere",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line2",
+          "authorized_signatory_1"
+        ],
+        "score": 0.6682628393173218
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[3].DateSigned",
+      "label": "Tabs Signers[3] Datesigned",
+      "name": "signature_date",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[3].DateSigned",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "signature_date",
+        "suggested_new_field_name": "tabs_signers[3]_datesigned",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "signature_date",
+          "years_at_address",
+          "id_issue_date"
+        ],
+        "score": 0.5848197937011719
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[4]",
+      "label": "Tabs Signers[4]",
+      "name": "TPMR.Tabs.Signers[4]",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[4]",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[4]",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line2",
+          "permanent_address_line1"
+        ],
+        "score": 0.6635069251060486
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[4].SignHere",
+      "label": "Tabs Signers[4] Signhere",
+      "name": "TPMR.Tabs.Signers[4].SignHere",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[4].SignHere",
+      "mapping_status": "suggest_new",
+      "mapping_proposal": {
+        "canonical_field_id": null,
+        "suggested_new_field_name": "tabs_signers[4]_signhere",
+        "confidence": "Low",
+        "source": "auto_embedding",
+        "candidates": [
+          "introducer_name",
+          "permanent_address_line2",
+          "authorized_signatory_2"
+        ],
+        "score": 0.6697182655334473
+      }
+    },
+    {
+      "id": "TPMR.Tabs.Signers[4].DateSigned",
+      "label": "Tabs Signers[4] Datesigned",
+      "name": "signature_date",
+      "type": "text",
+      "section": "Tpmr",
+      "context": "Page 1. Section: Tpmr.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": null,
+      "rect_pct": null,
+      "page": 1,
+      "page_dims": null,
+      "original_name": "TPMR.Tabs.Signers[4].DateSigned",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "signature_date",
+        "suggested_new_field_name": "tabs_signers[4]_datesigned",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "signature_date",
+          "id_issue_date",
+          "years_at_address"
+        ],
+        "score": 0.5845409035682678
+      }
+    },
+    {
+      "id": "Account Holder 1 Title",
+      "label": "Account Holder 1 Title",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        374.732,
+        206.88,
+        127.55699999999996,
+        20.182000000000016
+      ],
+      "rect_pct": [
+        0.6123071895424838,
+        0.7133055555555555,
+        0.20842647058823524,
+        0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 1 Title",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_holder_1_title",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "account_number"
+        ],
+        "score": 0.5037212371826172
+      }
+    },
+    {
+      "id": "Account Holder 2 Title",
+      "label": "Account Holder 2 Title",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        374.732,
+        178.07,
+        127.55699999999996,
+        20.182000000000016
+      ],
+      "rect_pct": [
+        0.6123071895424838,
+        0.7496818181818182,
+        0.20842647058823524,
+        0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 2 Title",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_holder_2_title",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "account_number"
+        ],
+        "score": 0.5175153017044067
+      }
+    },
+    {
+      "id": "Account Holder 3 Title",
+      "label": "Account Holder 3 Title",
+      "name": "purpose_of_account",
+      "type": "text",
+      "section": "General",
+      "context": "Page 3. Section: General.",
+      "placeholder": "",
+      "required": false,
+      "source": "acroform",
+      "rect": [
+        374.732,
+        149.771,
+        127.55699999999996,
+        20.182000000000016
+      ],
+      "rect_pct": [
+        0.6123071895424838,
+        0.7854128787878788,
+        0.20842647058823524,
+        0.025482323232323252
+      ],
+      "page": 3,
+      "page_dims": [
+        612.0,
+        792.0
+      ],
+      "original_name": "Account Holder 3 Title",
+      "mapping_status": "pending_review",
+      "mapping_proposal": {
+        "canonical_field_id": "purpose_of_account",
+        "suggested_new_field_name": "account_holder_3_title",
+        "confidence": "Medium",
+        "source": "auto_embedding",
+        "candidates": [
+          "purpose_of_account",
+          "introducer_name",
+          "account_number"
+        ],
+        "score": 0.5229486227035522
+      }
+    }
+  ]
+}

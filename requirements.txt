@@ -1,0 +1,8 @@
+pandas
+pyyaml
+pypdf
+reportlab
+flask
+flask-cors
+chromadb
+sentence-transformers
